@@ -16,7 +16,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#7fbee9] shadow-lg">
+    <header className="sticky top-0 z-50 bg-orange-500 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-20">
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
@@ -64,7 +64,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <nav className="md:hidden bg-[#7fbee9] border-t border-slate-700 px-4 pb-4">
+        <nav className="md:hidden bg-orange-500 border-t border-slate-700 px-4 pb-4">
           {NAV.map((n) => (
             <Link
               key={n.href}
