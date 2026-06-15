@@ -16,7 +16,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#0f2942] shadow-lg">
+    <header className="sticky top-0 z-50 shadow-lg" style={{ background: "rgba(255,255,255,0.08)", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)", borderBottom: "1px solid rgba(255,255,255,0.12)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
@@ -24,8 +24,12 @@ export default function Header() {
             alt="Călător din România"
             width={80}
             height={80}
-            className="object-contain"
-            style={{ filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.5))" }}
+            className="object-contain rounded-xl"
+            style={{
+              border: "10px solid rgba(255,255,255,0.15)",
+              filter: "drop-shadow(0 4px 12px rgba(0,0,0,0.6))",
+              borderRadius: "16px",
+            }}
           />
           <span className="text-white font-bold text-lg leading-tight">
             Călător<br />
@@ -60,7 +64,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <nav className="md:hidden bg-[#0f2942] border-t border-slate-700 px-4 pb-4">
+        <nav className="md:hidden border-t border-white/10 px-4 pb-4" style={{ background: "rgba(255,255,255,0.06)", backdropFilter: "blur(16px)", WebkitBackdropFilter: "blur(16px)" }}>
           {NAV.map((n) => (
             <Link
               key={n.href}
