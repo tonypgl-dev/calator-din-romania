@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const SOCIAL = [
   { href: "https://facebook.com", label: "Facebook", icon: "f" },
@@ -13,7 +14,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <span className="text-2xl">✈️</span>
+            <Image
+              src="/logo.svg"
+              alt="Călător din România"
+              width={48}
+              height={48}
+              className="object-contain"
+              style={{ filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.4))" }}
+            />
             <span className="text-white font-bold text-lg">
               Călător <span className="text-orange-400">din România</span>
             </span>
