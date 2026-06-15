@@ -22,8 +22,8 @@ export default function Header() {
           <Image
             src="/logo.svg"
             alt="Călător din România"
-            width={80}
-            height={80}
+            width={320}
+            height={320}
             className="object-contain rounded-xl"
             style={{
               border: "25px solid transparent",
