@@ -26,7 +26,7 @@ export default function Header() {
             height={80}
             className="object-contain rounded-xl"
             style={{
-              border: "10px solid rgba(255,255,255,0.15)",
+              border: "25px solid transparent",
               filter: "drop-shadow(0 4px 12px rgba(0,0,0,0.6))",
               borderRadius: "16px",
             }}
