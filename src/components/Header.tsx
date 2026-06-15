@@ -22,8 +22,8 @@ export default function Header() {
           <Image
             src="/logo.svg"
             alt="Călător din România"
-            width={40}
-            height={40}
+            width={80}
+            height={80}
             className="object-contain"
             style={{ filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.5))" }}
           />
