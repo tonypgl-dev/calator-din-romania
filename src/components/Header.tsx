@@ -29,9 +29,9 @@ export default function Header() {
               filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.5))",
             }}
           />
-          <span className="text-white font-bold text-[1.575rem] leading-tight">
+          <span className="text-white font-bold text-[1.575rem] leading-none">
             Călător<br />
-            <span className="text-[#1a4470] text-sm font-semibold">din România</span>
+            <span className="text-[#1a4470] text-[1.008rem] font-semibold">din România</span>
           </span>
         </Link>
 
