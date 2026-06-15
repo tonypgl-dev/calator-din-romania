@@ -22,13 +22,11 @@ export default function Header() {
           <Image
             src="/logo.svg"
             alt="Călător din România"
-            width={64}
-            height={64}
-            className="object-contain rounded-xl"
+            width={72}
+            height={72}
+            className="object-contain"
             style={{
-              border: "25px solid transparent",
-              filter: "drop-shadow(0 4px 12px rgba(0,0,0,0.6))",
-              borderRadius: "16px",
+              filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.5))",
             }}
           />
           <span className="text-white font-bold text-lg leading-tight">
