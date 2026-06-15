@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const NAV = [
@@ -18,7 +19,14 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-[#0f2942] shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="text-2xl">✈️</span>
+          <Image
+            src="/logo.svg"
+            alt="Călător din România"
+            width={40}
+            height={40}
+            className="object-contain"
+            style={{ filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.5))" }}
+          />
           <span className="text-white font-bold text-lg leading-tight">
             Călător<br />
             <span className="text-orange-400 text-sm font-semibold">din România</span>
