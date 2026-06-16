@@ -31,7 +31,7 @@ export default function Header() {
           />
           <span className="text-white font-bold text-[1.575rem]" style={{ lineHeight: 1 }}>
             Călător<br />
-            <span className="text-[#1a4470] text-[1.008rem] font-semibold" style={{ lineHeight: 1 }}>din România</span>
+            <span className="text-[#1a4470] text-[1.15rem] font-semibold" style={{ lineHeight: 1, marginTop: "-2px", display: "inline-block" }}>din România</span>
           </span>
         </Link>
 
