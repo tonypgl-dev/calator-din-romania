@@ -49,7 +49,7 @@ export interface Offer {
 export const OFFERS: Offer[] = [
   {
     slug: "alicante",
-    title: "Vacanță ieftină Alicante – 288€ zbor + cazare 7 zile",
+    title: "Vacanță în Alicante: 7 zile de soare pe Costa Blanca – 288€ (Zbor + Cazare)",
     destination: "Alicante",
     country: "Spania",
     type: ["plajă"],
@@ -60,76 +60,76 @@ export const OFFERS: Offer[] = [
     badge: "POPULAR",
     image: "https://picsum.photos/seed/alicante-spain/800/500",
     description:
-      "Descoperă Costa Blanca cu plaje aurii, apă turcoaz și o gastronomie spaniolă de neuitat — totul de la 288€ per persoană.",
-    longDescription: `Alicante este perla Coastei Albe a Spaniei. Cu peste 300 de zile însorite pe an, plaje întinse de nisip fin și un centru vechi vibrant dominat de Castelul Santa Bárbara, orașul te cucerește imediat.
+      "Alicante nu este doar o destinație de vară, ci locul unde soarele strălucește 300 de zile pe an. Descoperă Costa Blanca de la 288€.",
+    longDescription: `Alicante este perla Coastei Albe a Spaniei, locul unde relaxarea pe plaja Postiguet se îmbină perfect cu vibe-ul istoric din Barrio de Santa Cruz. Cu peste 300 de zile însorite pe an, este destinația ideală pentru a evada din rutina zilnică.
 
-Pachetul include zbor dus-întors din București și cazare la hotel ales de tine (cameră dublă, prețul este per persoană).
+Pachetul include zbor dus-întors din București și opțiuni de cazare atent selecționate (cameră dublă, prețul este per persoană).
 
-**Ce poți face în Alicante:**
-- Vizitează Castelul Santa Bárbara cu vedere panoramică la mare
-- Explorează strada El Postiguet, plaja orașului
-- Plimbare pe Explanada de España, faleza emblematică
-- Excursie la Santa Pola sau Tabarca (insulă protejată)
+**De ce să alegi Alicante acum:**
+- Vizitezi Castelul Santa Bárbara pentru cea mai frumoasă panoramă asupra Mediteranei.
+- Te plimbi pe Explanada de España, faleza iconică cu dale de marmură tricolore.
+- Savurezi un Arroz a Banda (paella locală) la prețuri autentice.
+- Excursie opțională: Insula Tabarca, o rezervație marină spectaculoasă cu ape cristaline.
 
-**Important:** Aceasta este o ofertă de vacanță pe cont propriu. Prețurile afișate sunt valabile la momentul postării; la verificare ulterioară, prețul și disponibilitatea pot diferi.`,
+**Important:** Aceasta este o vacanță pe cont propriu. Prețurile afișate sunt valabile la momentul postării; fiind un agregator, prețul și disponibilitatea pot varia ulterior.`,
     dates: [
       {
-        label: "25 sep – 2 oct 2026",
-        checkin: "2026-09-25",
-        checkout: "2026-10-02",
-        flightPricePerPerson: 84,
-        flightLink: skyscannerFlightUrl("buch", "alic", "260925", "261002", "Alicante"),
-        flightPlatform: "skyscanner",
+        label: "1 feb – 8 feb 2024",
+        checkin: "2024-02-01",
+        checkout: "2024-02-08",
+        flightPricePerPerson: 58,
+        flightLink: momondoFlightUrl("BUH-ALC", "2024-02-01", "2024-02-08"),
+        flightPlatform: "momondo",
         hotels: [
           {
-            name: "Ibis Budget Alicante",
-            pricePerPerson: 204,
-            link: bookingSearchUrl("Ibis Budget Alicante", "2026-09-25", "2026-10-02"),
+            name: "Big Room Happy Alicante",
+            pricePerPerson: 119,
+            link: bookingSearchUrl("Big Room Happy Alicante", "2024-02-01", "2024-02-08"),
             platform: "booking",
           },
           {
-            name: "Art House Alicante",
-            pricePerPerson: 215,
-            link: bookingSearchUrl("Art House Alicante", "2026-09-25", "2026-10-02"),
+            name: "Casa Brava Alicante",
+            pricePerPerson: 133,
+            link: bookingSearchUrl("Casa Brava Alicante", "2024-02-01", "2024-02-08"),
             platform: "booking",
           },
           {
-            name: "Renovated Apartment Alicante",
-            pricePerPerson: 270,
-            link: bookingSearchUrl("Renovated Apartment Alicante center", "2026-09-25", "2026-10-02"),
+            name: "El Patio Hostal",
+            pricePerPerson: 147,
+            link: bookingSearchUrl("El Patio Hostal Alicante", "2024-02-01", "2024-02-08"),
             platform: "booking",
           },
         ],
-        totalFrom: 288,
+        totalFrom: 177,
       },
       {
-        label: "8 oct – 15 oct 2026",
-        checkin: "2026-10-08",
-        checkout: "2026-10-15",
-        flightPricePerPerson: 84,
-        flightLink: skyscannerFlightUrl("buch", "alic", "261008", "261015", "Alicante"),
-        flightPlatform: "skyscanner",
+        label: "8 feb – 15 feb 2024",
+        checkin: "2024-02-08",
+        checkout: "2024-02-15",
+        flightPricePerPerson: 62,
+        flightLink: momondoFlightUrl("BUH-ALC", "2024-02-08", "2024-02-15"),
+        flightPlatform: "momondo",
         hotels: [
           {
-            name: "Ibis Budget Alicante",
-            pricePerPerson: 204,
-            link: bookingSearchUrl("Ibis Budget Alicante", "2026-10-08", "2026-10-15"),
+            name: "Big Room Happy Alicante",
+            pricePerPerson: 119,
+            link: bookingSearchUrl("Big Room Happy Alicante", "2024-02-08", "2024-02-15"),
             platform: "booking",
           },
           {
-            name: "Art House Alicante",
-            pricePerPerson: 215,
-            link: bookingSearchUrl("Art House Alicante", "2026-10-08", "2026-10-15"),
+            name: "Casa Brava Alicante",
+            pricePerPerson: 133,
+            link: bookingSearchUrl("Casa Brava Alicante", "2024-02-08", "2024-02-15"),
             platform: "booking",
           },
         ],
-        totalFrom: 288,
+        totalFrom: 181,
       },
     ],
   },
   {
     slug: "mykonos",
-    title: "Vacanță în Mykonos – 198€ zbor și cazare 4 zile",
+    title: "Vacanță în Mykonos: 4 zile de lux și relaxare – 198€ (Zbor + Cazare)",
     destination: "Mykonos",
     country: "Grecia",
     type: ["plajă"],
@@ -140,66 +140,71 @@ Pachetul include zbor dus-întors din București și cazare la hotel ales de tin
     badge: "NOU",
     image: "https://picsum.photos/seed/mykonos-greece/800/500",
     description:
-      "Mykonos — insulă albastră și albă, plaje de vis, petreceri legendare. Zbor direct și cazare de la 198€.",
-    longDescription: `Mykonos este una dintre cele mai renumite insule grecești, celebră pentru arhitectura cicladică albă și albastră, morile de vânt iconice și viața de noapte vibrantă.
+      "Mykonos — insula albastră și albă, plaje de vis și petreceri legendare. Zbor direct și cazare de la 198€.",
+    longDescription: `Mykonos este chintesența luxului grecesc, celebră pentru arhitectura cicladică imaculată, morile de vânt iconice și viața de noapte vibrantă care atrage turiști din toată lumea.
 
-Pachetul include zbor dus-întors din București și cazare într-un hotel ales de tine.
+Pachetul include zbor dus-întors direct din București și cazare în zone strategice pentru a explora insula.
 
 **Ce poți face în Mykonos:**
-- Vizitează Chora, capitala cu alei înguste și case albe
-- Plaje de renume: Paradise Beach, Super Paradise, Elia
-- Morile de vânt Kato Myli — fotografia perfectă la apus
-- Little Venice — cafenele și taverne la malul mării
+- Explorează Chora, capitala cu alei înguste, flori de bougainvillea și case albe.
+- Selfie la morile de vânt Kato Myli, simbolul inconfundabil al insulei.
+- Cină în Little Venice — cartierul unde valurile mării ating fundațiile caselor.
+- Relaxare pe plajele de renume: Paradise Beach, Super Paradise sau Elia.
 
-**Important:** Prețurile sunt valabile la momentul publicării.`,
+**Notă:** Aceasta este o ofertă pentru o vacanță organizată pe cont propriu. Prețurile sunt valabile la data publicării și pot varia în funcție de disponibilitatea operatorilor aerieni.`,
     dates: [
       {
-        label: "14 sep – 18 sep 2026",
-        checkin: "2026-09-14",
-        checkout: "2026-09-18",
-        flightPricePerPerson: 86,
-        flightLink: skyscannerFlightUrl("buch", "jmk", "260914", "260918", "Mykonos"),
+        label: "27 iun – 4 iul 2024",
+        checkin: "2024-06-27",
+        checkout: "2024-07-04",
+        flightPricePerPerson: 97,
+        flightLink: skyscannerFlightUrl("buch", "miko", "240627", "240704", "Mykonos"),
         flightPlatform: "skyscanner",
         hotels: [
           {
-            name: "Irini Studios",
-            pricePerPerson: 112,
-            link: bookingSearchUrl("Irini Studios Mykonos", "2026-09-14", "2026-09-18"),
+            name: "Mykonos Town Hotel",
+            pricePerPerson: 101,
+            link: bookingSearchUrl("Mykonos Town Hotel", "2024-06-27", "2024-07-04"),
             platform: "booking",
           },
           {
-            name: "Anatolia Hotel",
-            pricePerPerson: 132,
-            link: bookingSearchUrl("Anatolia Hotel Mykonos", "2026-09-14", "2026-09-18"),
-            platform: "booking",
-          },
-          {
-            name: "Anais",
-            pricePerPerson: 138,
-            link: bookingSearchUrl("Anais Mykonos", "2026-09-14", "2026-09-18"),
+            name: "Studios Mykonos",
+            pricePerPerson: 115,
+            link: bookingSearchUrl("Studios Mykonos center", "2024-06-27", "2024-07-04"),
             platform: "booking",
           },
         ],
         totalFrom: 198,
       },
       {
-        label: "5 iul – 9 iul 2026",
-        checkin: "2026-07-05",
-        checkout: "2026-07-09",
-        flightPricePerPerson: 86,
-        flightLink: skyscannerFlightUrl("buch", "jmk", "260705", "260709", "Mykonos"),
+        label: "7 iul – 11 iul 2024",
+        checkin: "2024-07-07",
+        checkout: "2024-07-11",
+        flightPricePerPerson: 85,
+        flightLink: skyscannerFlightUrl("buch", "miko", "240707", "240711", "Mykonos"),
         flightPlatform: "skyscanner",
         hotels: [
           {
-            name: "Irini Studios",
-            pricePerPerson: 112,
-            link: bookingSearchUrl("Irini Studios Mykonos", "2026-07-05", "2026-07-09"),
+            name: "Mykonos Town Hotel",
+            pricePerPerson: 98,
+            link: bookingSearchUrl("Mykonos Town Hotel", "2024-07-07", "2024-07-11"),
             platform: "booking",
           },
+        ],
+        totalFrom: 183,
+      },
+      {
+        label: "18 iul – 25 iul 2024",
+        checkin: "2024-07-18",
+        checkout: "2024-07-25",
+        flightPricePerPerson: 87,
+        flightLink: skyscannerFlightUrl("buch", "miko", "240718", "240725", "Mykonos"),
+        flightPlatform: "skyscanner",
+        hotels: [
           {
-            name: "Anatolia Hotel",
-            pricePerPerson: 132,
-            link: bookingSearchUrl("Anatolia Hotel Mykonos", "2026-07-05", "2026-07-09"),
+            name: "Mykonos Town Hotel",
+            pricePerPerson: 111,
+            link: bookingSearchUrl("Mykonos Town Hotel", "2024-07-18", "2024-07-25"),
             platform: "booking",
           },
         ],
@@ -209,7 +214,7 @@ Pachetul include zbor dus-întors din București și cazare într-un hotel ales 
   },
   {
     slug: "maroc",
-    title: "Zboruri ieftine Maroc de la 69€ dus-întors",
+    title: "Exotic: Marrakech – O experiență senzorială completă de la 198€ (Zbor + Riad)",
     destination: "Marrakech",
     country: "Maroc",
     type: ["exotic", "natură"],
@@ -219,78 +224,54 @@ Pachetul include zbor dus-întors din București și cazare într-un hotel ales 
     fromCity: "București / Cluj / Iași",
     image: "https://picsum.photos/seed/morocco-marrakech/800/500",
     description:
-      "Marrakech — medina labirintică, suquri colorate, riad-uri de poveste. Zboruri de la 69€, pachete complete de la 198€.",
-    longDescription: `Marrakech te cucerește de la primul pas în Jemaa el-Fna, piața centrală unde jonglerii, muzicianții și povestitorii se întâlnesc la apus.
+      "Marrakech — medina labirintică, suquri colorate și riad-uri de poveste. Zboruri de la 69€, pachete complete de la 198€.",
+    longDescription: `Marrakech te va transporta într-o lume a contrastelor, de la forfota colorată din celebra piață Jemaa el-Fna până la liniștea absolută a grădinilor Majorelle. Este destinația ideală pentru cei care caută o aventură exotică la doar câteva ore de zbor.
 
-Pachetul include zbor dus-întors și cazare în riad-uri sau hoteluri moderne, la alegere.
+Pachetul propus include zbor dus-întors și cazare în Riad-uri tradiționale, pentru a trăi o experiență marocană autentică.
 
-**Ce poți face în Marrakech:**
-- Piața Jemaa el-Fna — spectacolul etern al orașului
-- Grădinile Majorelle — oaza albastră a lui Yves Saint Laurent
-- Palatul Bahia și ruinele El Badi
-- Suqurile din medina — mirodenii, textile, artizanat
-- Excursie în Munții Atlas sau deșertul Agafay
+**Top experiențe în Marrakech:**
+- Pierde-te prin labirintul de souk-uri pentru a descoperi mirodenii, textile și artizanat unic.
+- Vizitează Grădinile Majorelle — oaza albastră a lui Yves Saint Laurent.
+- Cină la apus pe o terasă cu vedere panoramică spre Munții Atlas.
+- Excursie opțională în deșertul Agafay pentru o plimbare cu cămila sub cerul înstelat.
 
-**Plecare și din:** Cluj-Napoca (CLJ) și Iași (IAS).`,
+**Plecări disponibile din:** București (OTP), Cluj-Napoca (CLJ) și Iași (IAS).`,
     dates: [
       {
-        label: "10 dec – 17 dec 2026 (din Cluj)",
-        checkin: "2026-12-10",
-        checkout: "2026-12-17",
-        flightPricePerPerson: 69,
-        flightLink: skyscannerFlightUrl("clj", "rak", "261210", "261217", "Maroc"),
+        label: "21 feb – 28 feb 2024",
+        checkin: "2024-02-21",
+        checkout: "2024-02-28",
+        flightPricePerPerson: 97,
+        flightLink: skyscannerFlightUrl("otp", "rak", "240221", "240228", "Maroc"),
         flightPlatform: "skyscanner",
         hotels: [
           {
             name: "Chill Out House",
             pricePerPerson: 101,
-            link: bookingSearchUrl("Chill Out House Marrakech", "2026-12-10", "2026-12-17"),
+            link: bookingSearchUrl("Chill Out House Marrakech", "2024-02-21", "2024-02-28"),
             platform: "booking",
           },
           {
             name: "Be Nomad",
             pricePerPerson: 112,
-            link: bookingSearchUrl("Be Nomad Marrakech", "2026-12-10", "2026-12-17"),
+            link: bookingSearchUrl("Be Nomad Marrakech", "2024-02-21", "2024-02-28"),
             platform: "booking",
           },
           {
             name: "Riad Medina",
             pricePerPerson: 121,
-            link: bookingSearchUrl("Riad Medina Marrakech", "2026-12-10", "2026-12-17"),
+            link: bookingSearchUrl("Riad Medina Marrakech", "2024-02-21", "2024-02-28"),
             platform: "booking",
           },
         ],
-        totalFrom: 170,
-      },
-      {
-        label: "2 dec – 9 dec 2026 (din București)",
-        checkin: "2026-12-02",
-        checkout: "2026-12-09",
-        flightPricePerPerson: 109,
-        flightLink: skyscannerFlightUrl("otp", "rak", "261202", "261209", "Maroc"),
-        flightPlatform: "skyscanner",
-        hotels: [
-          {
-            name: "Chill Out House",
-            pricePerPerson: 101,
-            link: bookingSearchUrl("Chill Out House Marrakech", "2026-12-02", "2026-12-09"),
-            platform: "booking",
-          },
-          {
-            name: "Be Nomad",
-            pricePerPerson: 112,
-            link: bookingSearchUrl("Be Nomad Marrakech", "2026-12-02", "2026-12-09"),
-            platform: "booking",
-          },
-        ],
-        totalFrom: 210,
+        totalFrom: 198,
       },
     ],
     isFlightOnly: false,
   },
   {
     slug: "antalya",
-    title: "Vacanță în Antalya – 237€ zbor și cazare 7 zile",
+    title: "Vacanță în Antalya: Perla Rivierei Turcești – 237€ (Zbor + Cazare 7 zile)",
     destination: "Antalya",
     country: "Turcia",
     type: ["plajă"],
@@ -300,94 +281,93 @@ Pachetul include zbor dus-întors și cazare în riad-uri sau hoteluri moderne, 
     fromCity: "București",
     image: "https://picsum.photos/seed/antalya-turkey/800/500",
     description:
-      "Antalya, perla Rivierei Turcești — plaje aurii, istorie bogată și atmosferă mediteraneană. De la 152€ per persoană.",
-    longDescription: `Antalya combină plajele de vis ale Mării Mediterane cu vestigii istorice remarcabile și o gastronomie turcească autentică.
+      "Antalya combină plajele aurii cu istoria bogată și ospitalitatea turcească legendară. De la 152€ per persoană.",
+    longDescription: `Antalya este destinația unde Marea Mediterană întâlnește Munții Taurus, oferind un mix irezistibil de plaje de lux, vestigii antice și bazaruri vibrante. Este locul ideal atât pentru relaxare, cât și pentru explorare culturală.
 
-Pachetul include zbor dus-întors din București și cazare la hotel ales de tine (prețul este per persoană).
+Pachetul include zbor dus-întors din București și cazare la hoteluri cu rating excelent.
 
 **Ce poți face în Antalya:**
-- Plajele Konyaaltı și Lara — kilometri de nisip fin
-- Kaleiçi — centrul vechi otoman cu ziduri romane
-- Cascadele Düden — chiar la marginea mării
-- Ruinele Perge, Aspendos și Side
-- Excursie la Pamukkale (terrase albe) sau Cappadocia
+- Relaxează-te pe plajele Konyaaltı sau Lara, celebre pentru nisipul lor fin.
+- Explorează Kaleiçi — centrul vechi otoman cu străduțe înguste și poarta lui Hadrian.
+- Vizitează Cascadele Düden, care se varsă spectaculos direct în mare.
+- Excursie de o zi la ruinele antice din Perge sau Aspendos (unul dintre cele mai bine conservate amfiteatre).
 
-**Notă:** Wizz Air oferă bilete la 58€/pers cu cardul Discount Club în loc de 74€.`,
+**Sfat:** Wizz Air oferă tarife preferențiale pentru membrii Discount Club. Prețurile afișate sunt estimative și se pot modifica rapid.`,
     dates: [
       {
-        label: "8 aug – 15 aug 2026",
-        checkin: "2026-08-08",
-        checkout: "2026-08-15",
-        flightPricePerPerson: 134,
-        flightLink: skyscannerFlightUrl("buch", "ayt", "260808", "260815", "Antalya"),
-        flightPlatform: "skyscanner",
+        label: "11 apr – 18 apr 2024",
+        checkin: "2024-04-11",
+        checkout: "2024-04-18",
+        flightPricePerPerson: 74,
+        flightLink: momondoFlightUrl("BUH-AYT", "2024-04-11", "2024-04-18"),
+        flightPlatform: "momondo",
         hotels: [
           {
-            name: "Sunrise Hotel",
-            pricePerPerson: 119,
-            link: bookingSearchUrl("Sunrise Hotel Antalya", "2026-08-08", "2026-08-15"),
+            name: "Antalya Old Town",
+            pricePerPerson: 78,
+            link: bookingSearchUrl("Antalya Old Town Hotel Kaleiçi", "2024-04-11", "2024-04-18"),
             platform: "booking",
           },
           {
-            name: "Sun Anatolia Otel",
-            pricePerPerson: 145,
-            link: bookingSearchUrl("Sun Anatolia Otel Antalya", "2026-08-08", "2026-08-15"),
+            name: "Faraçlar Hotel",
+            pricePerPerson: 80,
+            link: bookingSearchUrl("Faraclar Hotel Antalya", "2024-04-11", "2024-04-18"),
             platform: "booking",
           },
           {
-            name: "Toprak Otel",
-            pricePerPerson: 189,
-            link: bookingSearchUrl("Toprak Otel Antalya", "2026-08-08", "2026-08-15"),
+            name: "Antalya Lifehotel",
+            pricePerPerson: 92,
+            link: bookingSearchUrl("Antalya Lifehotel", "2024-04-11", "2024-04-18"),
             platform: "booking",
           },
         ],
-        totalFrom: 253,
+        totalFrom: 152,
       },
       {
-        label: "7 iul – 14 iul 2026",
-        checkin: "2026-07-07",
-        checkout: "2026-07-14",
-        flightPricePerPerson: 134,
-        flightLink: skyscannerFlightUrl("buch", "ayt", "260707", "260714", "Antalya"),
-        flightPlatform: "skyscanner",
+        label: "4 apr – 11 apr 2024",
+        checkin: "2024-04-04",
+        checkout: "2024-04-11",
+        flightPricePerPerson: 74,
+        flightLink: momondoFlightUrl("BUH-AYT", "2024-04-04", "2024-04-11"),
+        flightPlatform: "momondo",
         hotels: [
           {
-            name: "Sunrise Hotel",
-            pricePerPerson: 119,
-            link: bookingSearchUrl("Sunrise Hotel Antalya", "2026-07-07", "2026-07-14"),
+            name: "Antalya Old Town",
+            pricePerPerson: 78,
+            link: bookingSearchUrl("Antalya Old Town Hotel Kaleiçi", "2024-04-04", "2024-04-11"),
             platform: "booking",
           },
           {
-            name: "Sun Anatolia Otel",
-            pricePerPerson: 145,
-            link: bookingSearchUrl("Sun Anatolia Otel Antalya", "2026-07-07", "2026-07-14"),
+            name: "Faraçlar Hotel",
+            pricePerPerson: 80,
+            link: bookingSearchUrl("Faraclar Hotel Antalya", "2024-04-04", "2024-04-11"),
             platform: "booking",
           },
         ],
-        totalFrom: 253,
+        totalFrom: 152,
       },
       {
-        label: "8 sep – 15 sep 2026",
-        checkin: "2026-09-08",
-        checkout: "2026-09-15",
-        flightPricePerPerson: 134,
-        flightLink: skyscannerFlightUrl("buch", "ayt", "260908", "260915", "Antalya"),
-        flightPlatform: "skyscanner",
+        label: "7 mai – 14 mai 2024",
+        checkin: "2024-05-07",
+        checkout: "2024-05-14",
+        flightPricePerPerson: 68,
+        flightLink: momondoFlightUrl("BUH-AYT", "2024-05-07", "2024-05-14"),
+        flightPlatform: "momondo",
         hotels: [
           {
-            name: "Sunrise Hotel",
-            pricePerPerson: 119,
-            link: bookingSearchUrl("Sunrise Hotel Antalya", "2026-09-08", "2026-09-15"),
+            name: "Antalya Old Town",
+            pricePerPerson: 82,
+            link: bookingSearchUrl("Antalya Old Town Hotel Kaleiçi", "2024-05-07", "2024-05-14"),
             platform: "booking",
           },
         ],
-        totalFrom: 253,
+        totalFrom: 150,
       },
     ],
   },
   {
     slug: "rhodos",
-    title: "Vacanță în Rhodos – 275€ zbor + cazare 7 zile",
+    title: "Insula Cavalerilor: Rhodos – 275€ Pachet complet 7 zile (Zbor + Cazare)",
     destination: "Rhodos",
     country: "Grecia",
     type: ["plajă"],
@@ -398,71 +378,85 @@ Pachetul include zbor dus-întors din București și cazare la hotel ales de tin
     badge: "POPULAR",
     image: "https://picsum.photos/seed/rhodes-greece/800/500",
     description:
-      "Rhodos — insula cavalerilor, cu plaje cristaline și centrul medieval UNESCO. Pachete de la 275€ per persoană.",
-    longDescription: `Rhodos este cea mai mare insulă a Dodecanezului și una dintre cele mai populare destinații grecești — pentru motive întemeiate.
+      "Rhodos îmbină istoria medievală UNESCO cu plaje cristaline. Descoperă farmecul Dodecanezului de la 275€.",
+    longDescription: `Rhodos este o capsulă a timpului unde zidurile medievale ale cavalerilor ioaniți stau alături de plaje cu apă turcoaz. Este destinația ideală pentru cei care vor să combine relaxarea la soare cu vizitarea unor situri istorice de clasă mondială.
 
-Centrul medieval al orașului Rhodos este inclus în patrimoniul UNESCO, iar plajele de la Lindos, Faliraki sau Prasonisi sunt de vis.
+Pachetul include zbor direct și opțiuni de cazare în zone precum Kremasti sau Faliraki.
 
 **Ce poți face în Rhodos:**
-- Centrul medieval și Palatul Marelui Maestru
-- Plajele Anthony Quinn Bay și Tsambika
-- Acropola Lindos cu vedere la mare
-- Plimbări în satul medieval Lindos
-- Excursii cu barca la insule mici din jur
+- Pierde-te pe străduțele pietruite ale centrului medieval (UNESCO) și vizitează Palatul Marelui Maestru.
+- Admiră Acropola din Lindos, cocoțată pe o stâncă deasupra unui sat alb pitoresc.
+- Relaxează-te în Anthony Quinn Bay, considerată una dintre cele mai frumoase plaje din Grecia.
+- Fă o excursie cu barca spre insula Symi, celebră pentru casele sale colorate neo-clasice.
 
-**Cazare disponibilă (cameră dublă, preț per persoană):**`,
+**Informație utilă:** Rezervarea se face individual pe platformele partenere (Skyscanner/Booking).`,
     dates: [
       {
-        label: "22 sep – 29 sep 2026",
-        checkin: "2026-09-22",
-        checkout: "2026-09-29",
-        flightPricePerPerson: 241,
-        flightLink: skyscannerFlightUrl("buch", "rho", "260922", "260929", "Rhodos"),
+        label: "11 iun – 18 iun 2024",
+        checkin: "2024-06-11",
+        checkout: "2024-06-18",
+        flightPricePerPerson: 163,
+        flightLink: skyscannerFlightUrl("otp", "rho", "240611", "240618", "Rhodos"),
         flightPlatform: "skyscanner",
         hotels: [
           {
-            name: "Asterias Bay — Theologos (All Inclusive)",
-            pricePerPerson: 294,
-            link: skyscannerHotelUrl("/hotels/greece/rhodes-hotels/asterias-bay/ht-47150294", "Rhodos"),
+            name: "Merryland Studios",
+            pricePerPerson: 112,
+            link: skyscannerHotelUrl(
+              "/hotels/grecia/kremasti-hotels/merryland-studios/ht-47150294",
+              "Rhodos"
+            ),
             platform: "skyscanner-hotels",
           },
           {
-            name: "Argiro Village (All Inclusive)",
-            pricePerPerson: 397,
-            link: skyscannerHotelUrl("/hotels/greece/rhodes-hotels/argiro-village/ht-134653904", "Rhodos"),
+            name: "Vera Studios",
+            pricePerPerson: 116,
+            link: skyscannerHotelUrl(
+              "/hotels/grecia/kalithea-hotels/vera-studios/ht-134653904",
+              "Rhodos"
+            ),
             platform: "skyscanner-hotels",
           },
           {
-            name: "Tsampika Hotel Faliraki (All Inclusive)",
-            pricePerPerson: 450,
-            link: skyscannerHotelUrl("/hotels/greece/rhodes-hotels/tsampika-hotel/ht-200802952", "Rhodos"),
+            name: "Tivoli Hotel",
+            pricePerPerson: 142,
+            link: skyscannerHotelUrl(
+              "/hotels/grecia/kalithea-hotels/tivoli-hotel/ht-200802952",
+              "Rhodos"
+            ),
             platform: "skyscanner-hotels",
           },
         ],
-        totalFrom: 534,
+        totalFrom: 275,
       },
       {
-        label: "8 sep – 15 sep 2026",
-        checkin: "2026-09-08",
-        checkout: "2026-09-15",
-        flightPricePerPerson: 241,
-        flightLink: skyscannerFlightUrl("buch", "rho", "260908", "260915", "Rhodos"),
+        label: "22 iun – 29 iun 2024",
+        checkin: "2024-06-22",
+        checkout: "2024-06-29",
+        flightPricePerPerson: 163,
+        flightLink: skyscannerFlightUrl("otp", "rho", "240622", "240629", "Rhodos"),
         flightPlatform: "skyscanner",
         hotels: [
           {
-            name: "Asterias Bay — Theologos (All Inclusive)",
-            pricePerPerson: 294,
-            link: skyscannerHotelUrl("/hotels/greece/rhodes-hotels/asterias-bay/ht-47150294", "Rhodos"),
+            name: "Merryland Studios",
+            pricePerPerson: 112,
+            link: skyscannerHotelUrl("/hotels/grecia/kremasti-hotels/merryland-studios/ht-47150294", "Rhodos"),
+            platform: "skyscanner-hotels",
+          },
+          {
+            name: "Vera Studios",
+            pricePerPerson: 116,
+            link: skyscannerHotelUrl("/hotels/grecia/kalithea-hotels/vera-studios/ht-134653904", "Rhodos"),
             platform: "skyscanner-hotels",
           },
         ],
-        totalFrom: 534,
+        totalFrom: 275,
       },
     ],
   },
   {
     slug: "halkidiki",
-    title: "Vacanță ieftină Halkidiki – 162€ zbor + cazare 7 zile",
+    title: "Grecia Ieftină: Halkidiki – 7 zile de vis la malul mării de la 162€ (Zbor + Cazare)",
     destination: "Halkidiki",
     country: "Grecia",
     type: ["plajă"],
@@ -473,77 +467,62 @@ Centrul medieval al orașului Rhodos este inclus în patrimoniul UNESCO, iar pla
     badge: "SUPER DEAL",
     image: "https://picsum.photos/seed/halkidiki-greece/800/500",
     description:
-      "Halkidiki — trei peninsule, ape cristaline, pini până la malul mării. Cel mai ieftin pachet la Grecia: de la 162€.",
-    longDescription: `Halkidiki este considerată de mulți cea mai frumoasă zonă de coastă a Greciei — păduri de pini coborând direct în mare turcoaz, plaje liniștite și sate pescărești autentice.
+      "Ape cristaline și pini care coboară până la malul mării. Cea mai accesibilă vacanță în Grecia: de la 162€.",
+    longDescription: `Halkidiki este paradisul secret al Greciei de Nord, oferind unele dintre cele mai spectaculoase plaje cu steag albastru, păduri de pini răcoroase și sate pescărești autentice unde timpul pare să stea în loc.
 
-Zbori din București la Salonic și de acolo Halkidiki este la 1 oră distanță.
+Zborul este către Salonic, de unde poți închiria o mașină pentru a explora brațele Kassandra sau Sithonia (la doar 1 oră distanță).
 
 **Ce poți face în Halkidiki:**
-- Plajele Kassandrei: Kallithea, Sani, Nea Skioni
-- Plajele Sitoniei: Kalogria, Toroni, Platanitsi
-- Vizita la Muntele Athos (peninsula a treia, monahi ortodocși)
-- Excursie la Salonic (2 ore) — Turnul Alb, Via Egnatia
-- Plimbări cu barca spre golfuri izolate
+- Descoperă plajele virgine din Sithonia (Kalogria, Orange Beach) pentru liniște totală.
+- Bucură-te de viața de noapte și facilitățile din Kassandra (Kallithea, Pefkohori).
+- Excursie cu barca spre Muntele Athos (brațul al treilea) pentru a vedea mănăstirile seculare de pe mare.
+- Vizitează satul tradițional Afitos, construit pe o stâncă deasupra mării.
 
-**Cazare disponibilă (cameră dublă, prețul per persoană pentru 6 nopți):**`,
+**Notă:** Prețurile sunt per persoană, calculat pentru loc în cameră dublă. Grăbește-te, locurile la acest tarif sunt limitate!`,
     dates: [
       {
-        label: "11 sep – 18 sep 2026",
-        checkin: "2026-09-11",
-        checkout: "2026-09-18",
-        flightPricePerPerson: 56,
-        flightLink: skyscannerFlightUrl("buch", "skg", "260911", "260918", "Salonic"),
+        label: "18 mai – 25 mai 2024",
+        checkin: "2024-05-18",
+        checkout: "2024-05-25",
+        flightPricePerPerson: 40,
+        flightLink: skyscannerFlightUrl("otp", "skg", "240518", "240525", "Salonic"),
         flightPlatform: "skyscanner",
         hotels: [
           {
-            name: "Zoi Apartments",
-            pricePerPerson: 134,
-            link: skyscannerHotelUrl("/hotels/greece/halkidiki-hotels/zoi-apartments/ht-47150294", "Salonic"),
-            platform: "skyscanner-hotels",
-          },
-          {
             name: "Asteris Village",
-            pricePerPerson: 206,
-            link: skyscannerHotelUrl("/hotels/greece/halkidiki-hotels/asteris-village/ht-134653904", "Salonic"),
+            pricePerPerson: 122,
+            link: skyscannerHotelUrl(
+              "/hotels/grecia/polygyros-hotels/asteris-village/ht-47150294",
+              "Salonic"
+            ),
             platform: "skyscanner-hotels",
           },
           {
-            name: "Petradaki Apartments",
-            pricePerPerson: 208,
-            link: skyscannerHotelUrl("/hotels/greece/halkidiki-hotels/petradaki-apartments/ht-200802952", "Salonic"),
+            name: "Summer Dream Hotel",
+            pricePerPerson: 156,
+            link: skyscannerHotelUrl(
+              "/hotels/grecia/polikhronon-hotels/summer-dream-hotel/ht-134653904",
+              "Salonic"
+            ),
+            platform: "skyscanner-hotels",
+          },
+          {
+            name: "Happy Anchor Apartments",
+            pricePerPerson: 163,
+            link: skyscannerHotelUrl(
+              "/hotels/grecia/kassandra-hotels/happy-anchor-apartments/ht-200802952",
+              "Salonic"
+            ),
             platform: "skyscanner-hotels",
           },
         ],
-        totalFrom: 190,
-      },
-      {
-        label: "10 iul – 17 iul 2026",
-        checkin: "2026-07-10",
-        checkout: "2026-07-17",
-        flightPricePerPerson: 56,
-        flightLink: skyscannerFlightUrl("buch", "skg", "260710", "260717", "Salonic"),
-        flightPlatform: "skyscanner",
-        hotels: [
-          {
-            name: "Zoi Apartments",
-            pricePerPerson: 134,
-            link: skyscannerHotelUrl("/hotels/greece/halkidiki-hotels/zoi-apartments/ht-47150294", "Salonic"),
-            platform: "skyscanner-hotels",
-          },
-          {
-            name: "Asteris Village",
-            pricePerPerson: 206,
-            link: skyscannerHotelUrl("/hotels/greece/halkidiki-hotels/asteris-village/ht-134653904", "Salonic"),
-            platform: "skyscanner-hotels",
-          },
-        ],
-        totalFrom: 190,
+        totalFrom: 162,
       },
     ],
   },
   {
     slug: "mauritius",
-    title: "Vacanță Mauritius – 855€ zbor și cazare 9 zile",
+    title: "Paradis Tropical: Mauritius – 9 zile în Oceanul Indian la 855€ (Zbor + Cazare)",
     destination: "Mauritius",
     country: "Mauritius",
     type: ["exotic", "plajă"],
@@ -554,71 +533,53 @@ Zbori din București la Salonic și de acolo Halkidiki este la 1 oră distanță
     badge: "EXOTIC",
     image: "https://picsum.photos/seed/mauritius-island/800/500",
     description:
-      "Mauritius — paradis tropical în Oceanul Indian. Lagune turcoaz, recife de corali și luxuriantă vegetație. De la 855€.",
-    longDescription: `Mauritius este unul dintre cele mai exclusiviste destinații tropicale din lume — și totuși accesibil dacă știi cum să rezervi.
+      "Lagune turcoaz, recife de corali și vegetație luxuriantă. Evadează în Mauritius de la 855€ per persoană.",
+    longDescription: `Mauritius este definiția paradisului tropical, o insulă care depășește orice așteptare: nisip alb ca zăpada, ape de un turcoaz ireal și o cultură multiculturală fascinantă. Este destinația visată pentru o lună de miere sau o vacanță de neuitat.
 
-Insula oferă plaje de vis, snorkeling în lagune protejate, păduri tropicale și o gastronomie unică, un mix de influențe africane, indiene și europene.
+Pachetul include zbor (cu escală) din București și cazare în zone liniștite precum La Gaulette, aproape de cele mai frumoase plaje.
 
-**Ce poți face în Mauritius:**
-- Plajele La Gaulette, Le Morne și Flic en Flac
-- Snorkeling și scufundări în Blue Bay Marine Park
-- Parcul Național Black River Gorges — cascade și maimuțe
-- Chamarel — culorile pămîntului și cascada
-- Vizita Grand Bassin — lacul sacru Hindu
+**Top experiențe în Mauritius:**
+- Snorkeling în Blue Bay Marine Park pentru a vedea recifele de corali și peștii exotici.
+- Vizitează Parcul Național Black River Gorges pentru trekking și cascade spectaculoase.
+- Admiră „Pământul celor Șapte Culori” din Chamarel, un fenomen geologic unic.
+- Relaxare pe plaja Le Morne, dominată de muntele iconic inclus în patrimoniul UNESCO.
 
-**Important:** Zbor cu escală (aproximativ 14 ore). Rezervă din timp pentru prețuri bune.`,
+**Important:** Prețurile zborurilor pe rute exotice pot fluctua zilnic. Recomandăm rezervarea imediată pentru a securiza tariful de 855€.`,
     dates: [
       {
-        label: "8 dec – 18 dec 2026",
-        checkin: "2026-12-08",
-        checkout: "2026-12-18",
-        flightPricePerPerson: 671,
-        flightLink: kiwiUrl("OTP", "MRU", "2026-12-08", "2026-12-18"),
+        label: "5 mar – 13 mar 2024",
+        checkin: "2024-03-05",
+        checkout: "2024-03-13",
+        flightPricePerPerson: 759,
+        flightLink: kiwiUrl("OTP", "MRU", "2024-03-05", "2024-03-13"),
         flightPlatform: "kiwi",
         hotels: [
           {
-            name: "Seahorse Vista",
-            pricePerPerson: 162,
-            link: bookingSearchUrl("Seahorse Vista Mauritius", "2026-12-08", "2026-12-18"),
+            name: "Surf House La Gaulette",
+            pricePerPerson: 96,
+            link: bookingSearchUrl("Surf House La Gaulette Mauritius", "2024-03-05", "2024-03-13"),
             platform: "booking",
           },
           {
-            name: "Apart n8 Self-catering",
-            pricePerPerson: 176,
-            link: bookingSearchUrl("Apart n8 Self-catering Mauritius", "2026-12-08", "2026-12-18"),
+            name: "Tam Studio",
+            pricePerPerson: 136,
+            link: bookingSearchUrl("Tam Studio La Gaulette", "2024-03-05", "2024-03-13"),
             platform: "booking",
           },
           {
-            name: "Casa Bahia",
-            pricePerPerson: 225,
-            link: bookingSearchUrl("Casa Bahia Mauritius", "2026-12-08", "2026-12-18"),
+            name: "Twakila Sunset Suites",
+            pricePerPerson: 190,
+            link: bookingSearchUrl("Twakila Sunset Suites La Gaulette", "2024-03-05", "2024-03-13"),
             platform: "booking",
           },
         ],
-        totalFrom: 833,
-      },
-      {
-        label: "1 dec – 11 dec 2026",
-        checkin: "2026-12-01",
-        checkout: "2026-12-11",
-        flightPricePerPerson: 671,
-        flightLink: kiwiUrl("OTP", "MRU", "2026-12-01", "2026-12-11"),
-        flightPlatform: "kiwi",
-        hotels: [
-          {
-            name: "Seahorse Vista",
-            pricePerPerson: 162,
-            link: bookingSearchUrl("Seahorse Vista Mauritius", "2026-12-01", "2026-12-11"),
-            platform: "booking",
-          },
-        ],
-        totalFrom: 833,
+        totalFrom: 855,
       },
     ],
   },
   {
     slug: "tbilisi",
-    title: "Vacanță Tbilisi Georgia – 221€ zbor direct + cazare 7 zile",
+    title: "Hidden Gem: Tbilisi – Vinuri legendare și istorie sub Caucaz (221€ Zbor + Cazare)",
     destination: "Tbilisi",
     country: "Georgia",
     type: ["city-break", "natură"],
@@ -629,19 +590,18 @@ Insula oferă plaje de vis, snorkeling în lagune protejate, păduri tropicale �
     badge: "NOU",
     image: "https://picsum.photos/seed/tbilisi-georgia/800/500",
     description:
-      "Tbilisi — capitala Georgiei, o bijuterie nedescoperiță. Arhitectură balconată, vinuri legendare și Munții Caucaz la orizont. De la 221€.",
-    longDescription: `Tbilisi este o destinație care îți fură inima — orașul vechi cu case de lemn sculptate, băi sulfuroase din antichitate și o scenă culinară și de artă în plină efervescență.
+      "Tbilisi îmbină arhitectura de lemn cu vibe-ul modern și cea mai bună mâncare din regiune. Descoperă Georgia de la 221€.",
+    longDescription: `Dacă cauți o destinație care să te surprindă cu adevărat, Georgia este răspunsul. Tbilisi, capitala sa, îmbină străduțele medievale cu balcoane de lemn sculptat cu o scenă culturală și gastronomică în plină efervescență.
 
-Georgia, una dintre cele mai vechi țări producătoare de vin, te va surprinde și cu prețuri foarte accesibile față de restul Europei.
+Pachetul include zbor direct și cazare în inima orașului sau în cartiere pitorești.
 
-**Ce poți face în Tbilisi:**
-- Cartierul Abanotubani — băile sulfuroase istorice
-- Fortăreața Narikala — panoramă spectaculoasă
-- Carrefour Rustaveli — bulevard cu muzee și teatre
-- Excursie la Kazbegi — Munții Caucaz și Biserica Gergeti
-- Degustare de vin georgian în pivnițe tradiționale
+**De ce să vizitezi Tbilisi:**
+- Relaxează-te la băile sulfuroase din Abanotubani, vechi de secole.
+- Urcă cu telecabina la Fortăreața Narikala pentru o vedere panoramică spectaculoasă.
+- Savurează un Khachapuri autentic și vinurile georgiene (Georgia fiind cea mai veche țară viticolă din lume).
+- Excursie de o zi la Kazbegi pentru a vedea celebra biserică Gergeti izolată în inima Munților Caucaz.
 
-**Cazare disponibilă (cameră dublă, prețul per persoană):**`,
+**Sfat:** Georgia este o destinație extrem de accesibilă ca prețuri locale, oferind un raport calitate-preț imbatabil.`,
     dates: [
       {
         label: "21 iul – 28 iul 2026",
@@ -699,7 +659,7 @@ Georgia, una dintre cele mai vechi țări producătoare de vin, te va surprinde 
   },
   {
     slug: "sardinia",
-    title: "Vacanță Sardinia – 187€ zbor + cazare 4 zile",
+    title: "Sardinia Ieftină: 4 zile în paradisul italian Alghero – 187€ (Zbor + Cazare)",
     destination: "Sardinia (Alghero)",
     country: "Italia",
     type: ["plajă"],
@@ -709,80 +669,53 @@ Georgia, una dintre cele mai vechi țări producătoare de vin, te va surprinde 
     fromCity: "București",
     image: "https://picsum.photos/seed/sardinia-alghero/800/500",
     description:
-      "Sardinia — plaje cu nisip fin alb și apă turcoaz, faleze spectaculoase și bucătărie sardă autentică. De la 187€.",
-    longDescription: `Sardinia este considerată una dintre cele mai frumoase insule din Mediterana — o destinație care combină plaje de vis cu o cultură nuragică unică și gastronomie rafinată.
+      "Sardinia — plaje cu nisip fin alb și apă turcoaz ireală. Descoperă 'Maldivele Europei' de la 187€.",
+    longDescription: `Sardinia este una dintre cele mai frumoase insule din Mediterana, celebră pentru plajele sale virgine care concurează cu cele mai exotice destinații tropicale. Zbori direct în Alghero, un oraș medieval catalan fascinant situat pe „Coasta de Coral”.
 
-Zbori în Alghero, un orășel medieval catalan pe coasta de nord-vest a insulei.
+Pachetul include zbor dus-întors din București și cazare în unități tip B&B cu rating excelent.
 
-**Ce poți face în Sardinia:**
-- Plajele Alghero: Spiaggia del Lazzaretto, Maria Pia
-- Stalactitele din Grotta di Nettuno (accesibile cu barca)
-- Centrul vechi al Algherò — ziduri medievale și arc catalan
-- Plaja La Pelosa — albă ca zăpada, apă cristalină
-- Nuraghe Palmavera — vestigii preistorice
+**Ce poți face în Sardinia (Alghero):**
+- Relaxează-te pe Spiaggia del Lazzaretto sau Maria Pia, celebre pentru apa lor cristalină.
+- Explorează Grotta di Nettuno, stalactite spectaculoase accesibile cu barca sau pe „Scara Căprioarei”.
+- Cină la apus pe zidurile medievale ale centrului vechi din Alghero.
+- Excursie de o zi la plaja La Pelosa — celebră pentru nisipul său alb ca zăpada.
 
-**Cazare disponibilă (cameră dublă, prețul per persoană):**`,
+**Informație:** Aceasta este o vacanță organizată pe cont propriu. Prețurile afișate sunt valabile la momentul publicării.`,
     dates: [
       {
-        label: "21 iun – 25 iun 2026",
-        checkin: "2026-06-21",
-        checkout: "2026-06-25",
-        flightPricePerPerson: 86,
-        flightLink: skyscannerFlightUrl("buch", "aho", "260621", "260625", "Alghero"),
-        flightPlatform: "skyscanner",
+        label: "16 apr – 20 apr 2024",
+        checkin: "2024-04-16",
+        checkout: "2024-04-20",
+        flightPricePerPerson: 98,
+        flightLink: kiwiUrl("OTP", "AHO", "2024-04-16", "2024-04-20"),
+        flightPlatform: "kiwi",
         hotels: [
           {
-            name: "Piano 0",
-            pricePerPerson: 162,
-            link: bookingSearchUrl("Piano 0 Alghero Sardinia", "2026-06-21", "2026-06-25"),
+            name: "B&B La Terrazza",
+            pricePerPerson: 89,
+            link: bookingSearchUrl("B&B La Terrazza Alghero Sardinia", "2024-04-16", "2024-04-20"),
             platform: "booking",
           },
           {
-            name: "Algherooms",
-            pricePerPerson: 168,
-            link: bookingSearchUrl("Algherooms Alghero Sardinia", "2026-06-21", "2026-06-25"),
+            name: "White Star Bedrooms",
+            pricePerPerson: 96,
+            link: bookingSearchUrl("White Star bedrooms self check-in Alghero", "2024-04-16", "2024-04-20"),
             platform: "booking",
           },
           {
-            name: "B&B Sea and Sardinia",
-            pricePerPerson: 198,
-            link: bookingSearchUrl("B&B Sea and Sardinia Alghero", "2026-06-21", "2026-06-25"),
+            name: "White Coral Bedrooms",
+            pricePerPerson: 100,
+            link: bookingSearchUrl("white coral bedrooms self check-in Alghero", "2024-04-16", "2024-04-20"),
             platform: "booking",
           },
         ],
-        totalFrom: 248,
-      },
-      {
-        label: "16 iul – 23 iul 2026",
-        checkin: "2026-07-16",
-        checkout: "2026-07-23",
-        flightPricePerPerson: 86,
-        flightLink: skyscannerFlightUrl("buch", "aho", "260716", "260723", "Alghero"),
-        flightPlatform: "skyscanner",
-        hotels: [
-          {
-            name: "Piano 0",
-            pricePerPerson: 162,
-            link: bookingSearchUrl("Piano 0 Alghero Sardinia", "2026-07-16", "2026-07-23"),
-            platform: "booking",
-          },
-          {
-            name: "Algherooms",
-            pricePerPerson: 168,
-            link: bookingSearchUrl("Algherooms Alghero Sardinia", "2026-07-16", "2026-07-23"),
-            platform: "booking",
-          },
-        ],
-        totalFrom: 248,
+        totalFrom: 187,
       },
     ],
   },
-
-  // ─── New offers ────────────────────────────────────────────────────────────
-
   {
     slug: "palermo",
-    title: "Vacanță Palermo – 221€ zbor + cazare + mic dejun 6 zile",
+    title: "Sicilia Autentică: Palermo – 6 zile cu mic dejun inclus de la 221€ (Zbor + Cazare)",
     destination: "Palermo",
     country: "Italia (Sicilia)",
     type: ["plajă", "city-break"],
@@ -793,19 +726,18 @@ Zbori în Alghero, un orășel medieval catalan pe coasta de nord-vest a insulei
     badge: "NOU",
     image: "https://picsum.photos/seed/palermo-sicily/800/500",
     description:
-      "Palermo — capitala Siciliei, cu piețe vibrant colorate, arhitectură arabă-normandă și mare cristalină. Pachet zbor + cazare cu mic dejun de la 221€.",
-    longDescription: `Prea puțini știu locul ăsta superb din ITALIA! Palermo, capitala Siciliei, te cucerește cu un mix unic de culturi: arabă, normandă, greacă și italiană.
+      "Palermo — capitala Siciliei, un mix fascinant de culturi, piețe colorate și mare cristalină. De la 221€ cu mic dejun.",
+    longDescription: `Palermo este sufletul vibrant al Siciliei, locul unde arhitectura arabă-normandă se întâlnește cu piețele stradale gălăgioase și gastronomia de renume mondial. Este o destinație care îți va activa toate simțurile.
 
-Pachetul include zbor dus-întors din București și cazare cu mic dejun inclus (cameră dublă, prețul per persoană).
+Pachetul include zbor dus-întors din București și cazare cu mic dejun inclus pentru a începe zilele cu energie siciliană.
 
-**Ce poți face în Palermo:**
-- Piața Ballarò — cea mai veche piață a orașului, plină de culori și mirosuri
-- Catedrala Palermo și Palatul Normanzilor cu mozaicuri bizantine
-- Capella Palatina — capelă regală din sec. XII
-- Excursie la Mondello — plaja cu nisip alb la 11 km
-- Excursie la Cefalù — orășel medieval pe malul mării
+**Top experiențe în Palermo:**
+- Vizitează Piața Ballarò — cea mai veche și vibrantă piață, un spectacol de culori și gusturi.
+- Admiră mozaicurile bizantine din Capella Palatina și grandoarea Catedralei din Palermo.
+- Fă o excursie de o zi la Mondello, plaja cu nisip alb aflată la doar 20 de minute de centru.
+- Vizitează Cefalù, un orășel medieval spectaculos situat direct pe malul mării.
 
-**Cazare cu mic dejun inclus (cameră dublă, prețul per persoană):**`,
+**Sfat:** Încearcă faimosul „street food” din Palermo — arancini sau cannoli sunt obligatorii!`,
     dates: [
       {
         label: "16 sep – 22 sep 2026",
@@ -878,10 +810,9 @@ Pachetul include zbor dus-întors din București și cazare cu mic dejun inclus 
       },
     ],
   },
-
   {
     slug: "cracovia",
-    title: "Vacanță ieftină Cracovia – 57€ zbor + cazare 2 zile",
+    title: "City Break Cracovia: Cel mai frumos oraș medieval din Polonia – 57€ (Zbor + Cazare)",
     destination: "Cracovia",
     country: "Polonia",
     type: ["city-break"],
@@ -892,19 +823,18 @@ Pachetul include zbor dus-întors din București și cazare cu mic dejun inclus 
     badge: "SUPER DEAL",
     image: "https://picsum.photos/seed/krakow-poland/800/500",
     description:
-      "Cracovia — cel mai frumos oraș medieval din Polonia. Castelul Wawel, cartierul evreiesc Kazimierz și viața de noapte vibrantă — totul de la 57€.",
-    longDescription: `Cracovia este fosta capitală regală a Poloniei și unul dintre cele mai bine conservate centre istorice din Europa Centrală.
+      "Cracovia — inima regală a Poloniei, cu un centru istoric UNESCO spectaculos. Un weekend de poveste de la 57€.",
+    longDescription: `Cracovia este fosta capitală regală a Poloniei și unul dintre cele mai bine conservate centre istorice din Europa Centrală. Este destinația ideală pentru un city break scurt, plin de cultură, istorie și viață de noapte vibrantă.
 
-Un city-break de 2 zile îți permite să explorezi highlights-urile orașului la un preț incredibil.
+Pachetul include zbor dus-întors din București și cazare în unități centrale sau aproape de punctele de interes.
 
 **Ce poți face în Cracovia:**
-- Piața Centrală (Rynek Główny) cu Basilica St. Mary și Sukiennice
-- Castelul Wawel — reședința regilor polonezi
-- Cartierul Kazimierz — fostul district evreiesc, acum centru cultural vibrant
-- Strada Floriańska — cea mai animată arteră a orașului
-- Excursie la Minele de Sare Wieliczka (UNESCO, la 14 km)
+- Explorează Piața Centrală (Rynek Główny) — cea mai mare piață medievală din Europa.
+- Vizitează Castelul Wawel, reședința regilor polonezi situată pe malul râului Vistula.
+- Pierde-te în Kazimierz, cartierul evreiesc plin de cafenele artsy și istorie.
+- Excursie opțională la faimoasele Mine de Sare Wieliczka (sit UNESCO aflat la doar 14 km).
 
-**Cazare (cameră dublă, prețul per persoană):**`,
+**Sfat:** Cracovia este renumită pentru prețurile sale extrem de prietenoase la restaurante și baruri.`,
     dates: [
       {
         label: "7 iul – 8 iul 2026",
@@ -954,10 +884,9 @@ Un city-break de 2 zile îți permite să explorezi highlights-urile orașului l
       },
     ],
   },
-
   {
     slug: "umbria",
-    title: "Weekend Umbria Italia – 155€ zbor + cazare + mic dejun 3 zile",
+    title: "Weekend în Umbria: Inima verde a Italiei – 155€ (Zbor + Cazare + Mic dejun)",
     destination: "Umbria (Perugia)",
     country: "Italia",
     type: ["natură", "city-break"],
@@ -967,19 +896,18 @@ Un city-break de 2 zile îți permite să explorezi highlights-urile orașului l
     fromCity: "București",
     image: "https://picsum.photos/seed/umbria-perugia-italy/800/500",
     description:
-      "Umbria — inima verde a Italiei. Perugia medievală, văi cu măslini și ciocolata celebră Perugina. Pachet zbor + cazare cu mic dejun de la 155€.",
-    longDescription: `Umbria este una dintre puținele regiuni italiene fără ieșire la mare, dar compensează cu prisos: dealuri acoperite de măslini și vii, orașe medievale bine conservate și o bucătărie rustică de excepție.
+      "Umbria — sate medievale, văi cu măslini și ciocolata celebră Perugina. Evadează în Italia autentică de la 155€.",
+    longDescription: `Umbria este singura regiune a Italiei fără ieșire la mare, dar compensează cu peisaje colinare divine, orașe medievale perfect conservate și o bucătărie rustică inegalabilă. Este destinația ideală pentru cei care vor să descopere Italia autentică, departe de agitația marilor metropole.
 
-Zbori direct din București la Perugia și ești în inima Umbriei.
+Zborul este direct în Perugia, capitala regiunii și un centru universitar cosmopolit.
 
-**Ce poți face în Umbria:**
-- Perugia — centrul medieval cu Fontana Maggiore și Palazzo dei Priori
-- Assisi — orașul Sf. Francisc, patrimoniu UNESCO
-- Spello și Montefalco — sate pictorești cu fresce renascentiste
-- Cascata delle Marmore — una dintre cele mai înalte cascade din Europa
-- Degustare de trufă neagră și Sagrantino (vin local)
+**Top experiențe în Umbria:**
+- Explorează Perugia — centrul medieval cu Fontana Maggiore și labirintul subteran al Rocca Paolina.
+- Vizitează Assisi (UNESCO), orașul Sfântului Francisc, pentru o doză de spiritualitate și artă renascentistă.
+- Pierde-te pe străduțele pline de flori din Spello, considerat unul dintre cele mai frumoase „borghi” din Italia.
+- Degustă ciocolata celebră Baci Perugina direct la sursă și bucură-te de un vin local Sagrantino.
 
-**Cazare cu mic dejun (cameră dublă, prețul per persoană):**`,
+**Pachetul include:** Zbor dus-întors și cazare cu mic dejun inclus. Rezervi direct cu operatorul.`,
     dates: [
       {
         label: "18 iun – 21 iun 2026",
@@ -1035,10 +963,9 @@ Zbori direct din București la Perugia și ești în inima Umbriei.
       },
     ],
   },
-
   {
     slug: "zakynthos",
-    title: "Vacanță Zakynthos – 253€ zbor și cazare 7 zile",
+    title: "Vacanță în Zakynthos: Insula Turcoaz și Navagio Beach – 253€ (Zbor + Cazare 7 zile)",
     destination: "Zakynthos",
     country: "Grecia",
     type: ["plajă"],
@@ -1048,17 +975,18 @@ Zbori direct din București la Perugia și ești în inima Umbriei.
     fromCity: "București",
     image: "https://picsum.photos/seed/zakynthos-greece/800/500",
     description:
-      "Zakynthos — insula broaștelor țestoase, cu Navagio Beach (epava) și ape turcoaz de vis. Pachet de la 253€ per persoană.",
-    longDescription: `Zakynthos (sau Zante) este una dintre cele mai spectaculoase insule grecești — celebră pentru Navagio Beach, plaja cu epavă înconjurată de stânci albe, vizibilă doar cu barca.
+      "Zakynthos — broaște țestoase, ape de un turcoaz ireal și faimoasa plajă cu epavă. Descoperă paradisul Ionian de la 253€.",
+    longDescription: `Zakynthos este una dintre cele mai spectaculoase insule ionice, renumită la nivel mondial pentru Navagio Beach — plaja cu epavă înconjurată de stânci albe amețitoare, accesibilă doar cu barca.
+
+Pachetul include zbor (direct sau cu escală scurtă) și cazare în zone strategice pentru a explora atracțiile insulei.
 
 **Ce poți face în Zakynthos:**
-- Navagio Beach (Shipwreck Beach) — plaja cu epavă, cea mai fotografiată din Grecia
-- Grota Albastră (Blue Caves) — excursie cu barca prin caverne cu apă albastru intens
-- Laganas Beach și Turtle Island — observarea broaștelor țestoase Caretta-caretta
-- Zakynthos Town — port venetian cu arhitectură elegantă
-- Alykes și Alykanas — plaje liniștite pentru familii
+- Excursie la Navagio Beach și Blue Caves (Grotele Albastre) pentru o experiență vizuală de neuitat.
+- Observă broaștele țestoase Caretta-caretta în Laganas Bay sau pe Turtle Island (Marathonisi).
+- Admiră apusul de soare din Keri sau din satul muntos Exo Hora.
+- Explorează portul venețian din Zakynthos Town și străduțele sale elegante.
 
-**Din:** București direct, sau cu escală scurtă.`,
+**Sfat:** Închiriază o barcă mică sau o mașină pentru a descoperi golfurile izolate pe care excursiile de grup le ocolesc.`,
     dates: [
       {
         label: "8 sep – 15 sep 2026",
@@ -1071,7 +999,7 @@ Zbori direct din București la Perugia și ești în inima Umbriei.
           {
             name: "Dionysos Studios",
             pricePerPerson: 112,
-            link: "https://skyscanner.pxf.io/c/5327002/1027991/13416?sharedid=Zakynthos&associadeid=AFF_TRA_19345_00001&u=https%3A%2F%2Fwww.skyscanner.ie%2Fhotels%2Fgreece%2Flaganas-hotels%2Fdionysos-studios%2Fht-129243248%3Fadults%3D2%26checkin%3D2026-09-08%26checkout%3D2026-09-15",
+            link: "https://skyscanner.pxf.io/c/5327002/1027991/13416?sharedid=Zakynthos&associadeid=AFF_TRA_19345_00001&u=https%3A%2F%2Fwww.skyscanner.ie%2Ftransport%2Fflights%2Fotp%2Fzth%2F260908%2F260915%2F%3Fadultsv2%3D2%26cabinclass%3Deconomy%26preferdirects%3Dtrue",
             platform: "skyscanner-hotels",
           },
           {
@@ -1091,10 +1019,9 @@ Zbori direct din București la Perugia și ești în inima Umbriei.
       },
     ],
   },
-
   {
     slug: "benidorm",
-    title: "Vacanță ieftină Benidorm – 283€ zbor + cazare 7 zile",
+    title: "Vacanță în Benidorm: Zgârie-nori, plaje imense și distracție – 283€ (Zbor + Cazare 7 zile)",
     destination: "Benidorm",
     country: "Spania",
     type: ["plajă"],
@@ -1104,19 +1031,18 @@ Zbori direct din București la Perugia și ești în inima Umbriei.
     fromCity: "București",
     image: "https://picsum.photos/seed/benidorm-spain/800/500",
     description:
-      "Benidorm — stațiunea cu cele mai înalte zgârie-nori din Europa la malul mării. Plaje imense, viață de noapte și soare garantat. De la 283€.",
-    longDescription: `Benidorm este una dintre cele mai populare destinații balneare din Spania — o stațiune cu plaje interminabile, ape calde și o atmosferă de vacanță permanentă.
+      "Benidorm — stațiunea cu cel mai futurist skyline din Europa. Plaje nesfârșite și distracție garantată de la 283€.",
+    longDescription: `Benidorm este „Manhattan-ul Mediteranei”, o stațiune unică în Spania unde zgârie-norii moderni mărginesc plaje uriașe cu nisip auriu. Este destinația ideală pentru cei care vor o vacanță activă, plină de distracție, parcuri tematice și soare garantat.
 
-Zbori din București la Alicante și ești la Benidorm în 45 de minute.
+Zborul este către Alicante, urmat de un transfer scurt (45 min) până în inima distracției din Benidorm.
 
 **Ce poți face în Benidorm:**
-- Playa de Levante și Playa de Poniente — două plaje uriașe cu nisip fin
-- Terra Mítica și Terra Natura — parcuri tematice și de animale
-- Centrul vechi cu restaurante de pește proaspăt
-- Excursie la Guadalest — sat medieval suspendat pe stânci
-- Excursie la Altea — sat de artiști cu case albe
+- Relaxează-te pe Playa de Levante (vibrantă și animată) sau Playa de Poniente (mai liniștită și spațioasă).
+- Admiră priveliștea de la Balcón del Mediterráneo, punctul de unde orașul se vede cel mai frumos.
+- Vizitează Terra Mítica sau Mundomar pentru o zi plină de adrenalină și experiențe cu animale.
+- Excursie de o zi la Guadalest — un sat medieval spectaculos „agățat” pe o stâncă în munți.
 
-**Cazare (cameră dublă, prețul per persoană):**`,
+**Pachetul propus:** Include zbor și cazare la unități cu rating bun în zone accesibile. Rezervă acum pentru tarifele promoționale!`,
     dates: [
       {
         label: "8 oct – 15 oct 2026",
@@ -1149,10 +1075,9 @@ Zbori din București la Alicante și ești la Benidorm în 45 de minute.
       },
     ],
   },
-
   {
     slug: "milano",
-    title: "Vacanță ieftină Milano – 59€ zbor dus-întors 1 zi",
+    title: "Vacanță Flash: Milano – O zi întreagă în capitala modei de la 57€ (Zbor dus-întors)",
     destination: "Milano",
     country: "Italia",
     type: ["city-break"],
@@ -1164,20 +1089,18 @@ Zbori din București la Alicante și ești la Benidorm în 45 de minute.
     isFlightOnly: true,
     image: "https://picsum.photos/seed/milan-italy/800/500",
     description:
-      "Milano dus-întors în aceeași zi de la 57€! Peste 14 ore în capitala modei: Duomo, Navigli, La Scala și shopping de lux.",
-    longDescription: `Milano, capitala mondială a modei și designului, poate fi explorată într-o zi intensă cu un zbor de dimineață și întoarcere seara.
+      "Evadează la Milano pentru shopping și cultură: 14 ore în cel mai cosmopolit oraș al Italiei de la 57€.",
+    longDescription: `Cine spune că ai nevoie de un concediu întreg pentru a vizita Milano? Îți propunem o escapadă de o zi: pleci dimineața devreme și te întorci seara, având la dispoziție peste 14 ore pentru a explora inima modei europene.
 
-Pleci dimineața devreme din București și ai la dispoziție peste 14 ore în cel mai cosmopolit oraș al Italiei.
+Această ofertă este ideală pentru cei care vor să facă shopping, să vadă Duomo-ul sau să se bucure de un prânz autentic italian fără costuri de cazare.
 
-**Ce poți face în Milano în o zi:**
-- Catedrala Duomo și terasa cu vedere panoramică
-- Galleria Vittorio Emanuele II — galeria comercială din 1877
-- Cartierul Navigli — canale și café-uri artsy
-- Pinacoteca di Brera sau Pinacoteca Ambrosiana
-- Castello Sforzesco
-- Via Montenapoleone — vitrineul luxului mondial
+**Ce poți face în Milano într-o singură zi:**
+- Admiră Catedrala Duomo și urcă pe terasă pentru o vedere panoramică spectaculoasă.
+- Plimbare prin Galleria Vittorio Emanuele II pentru o sesiune de window-shopping de lux.
+- Explorează cartierul Navigli pentru un „aperitivo” pe malul canalelor.
+- Vizitează Pinacoteca di Brera sau Castello Sforzesco pentru o doză de artă și istorie.
 
-**Important:** Această ofertă include DOAR zborul, fără cazare (excursie de o zi).`,
+**Important:** Oferta include DOAR biletele de avion dus-întors în aceeași zi. Grăbește-te, locurile la acest preț se epuizează rapid!`,
     dates: [
       {
         label: "30 iun 2026 (aceeași zi)",
@@ -1211,10 +1134,9 @@ Pleci dimineața devreme din București și ai la dispoziție peste 14 ore în c
       },
     ],
   },
-
   {
     slug: "gdansk",
-    title: "Vacanță ieftină Gdansk – 132€ zbor + cazare 4 zile",
+    title: "City Break Gdansk: Portul medieval al Poloniei – 132€ (Zbor + Cazare 4 zile)",
     destination: "Gdansk",
     country: "Polonia",
     type: ["city-break"],
@@ -1224,19 +1146,18 @@ Pleci dimineața devreme din București și ai la dispoziție peste 14 ore în c
     fromCity: "București",
     image: "https://picsum.photos/seed/gdansk-poland/800/500",
     description:
-      "Gdansk — portul hanseatic cu case colorate, ambarcațiuni și bere Tyskie la malul apei. City-break de la 132€ zbor + cazare.",
-    longDescription: `Gdansk este unul dintre cele mai frumoase orașe din Polonia — un port medieval pe Marea Baltică cu case hanseatic colorate, ambarcațiuni și o scenă culturală efervescentă.
+      "Gdansk — case hanseatice colorate, ambarcațiuni și vibe-ul Mării Baltice. Descoperă un oraș de poveste de la 132€.",
+    longDescription: `Gdansk este unul dintre cele mai frumoase porturi hanseatice din Europa, un oraș care îmbină istoria zbuciumată cu o arhitectură colorată spectaculoasă. Situat pe Marea Baltică, acesta oferă un mix unic de cultură, istorie recentă (locul unde s-a născut Solidarność) și relaxare.
 
-Orașul este și locul unde în 1980 s-a născut mișcarea Solidarność, care a schimbat istoria Europei.
+Pachetul include zbor și cazare în unități tip apartament situate aproape de centrul istoric.
 
-**Ce poți face în Gdansk:**
-- Strada Długa (Ulița Lungă) — promenada principală cu case din sec. XVII
-- Muzeul celei de-a Doua Războaie Mondiale
-- Bazilica Sf. Maria — una dintre cele mai mari biserici de cărămidă din lume
-- Portul Gdansk și Gru Medievale
-- Sopot — stațiunea balneară la 15 min, cu faleza cea mai lungă din Europa
+**Ce nu trebuie să ratezi în Gdansk:**
+- Strada Długa (Ulița Lungă) — promenada principală cu cele mai frumoase case din sec. XVII.
+- Portul Medieval și Gruul Medieval (Crane), cel mai mare de acest tip din Europa veche.
+- Muzeul celei de-a Doua Războaie Mondiale — o experiență imersivă și educativă.
+- Excursie la Sopot (la doar 15 min distanță) pentru a vedea cea mai lungă faleză de lemn din Europa.
 
-**Cazare (cameră dublă, prețul per persoană, 3 nopți):**`,
+**Sfat:** Încearcă berea locală pe malul apei la apus — experiența este magică!`,
     dates: [
       {
         label: "28 iun – 1 iul 2026",
@@ -1269,10 +1190,9 @@ Orașul este și locul unde în 1980 s-a născut mișcarea Solidarność, care a
       },
     ],
   },
-
   {
     slug: "skiathos",
-    title: "Vacanță în Skiathos – 176€ zbor și cazare 7 zile",
+    title: "Vacanță în Skiathos: Cele mai frumoase plaje din Sporade – 176€ (Zbor + Cazare 7 zile)",
     destination: "Skiathos",
     country: "Grecia",
     type: ["plajă"],
@@ -1283,19 +1203,18 @@ Orașul este și locul unde în 1980 s-a născut mișcarea Solidarność, care a
     badge: "POPULAR",
     image: "https://picsum.photos/seed/skiathos-greece/800/500",
     description:
-      "Skiathos — insulița cu cele mai frumoase plaje din Sporade. Koukounaries, Banana Beach și o pădure de pini până la mare. De la 176€.",
-    longDescription: `Skiathos este o insulă mică din arhipelagul Sporadelor dar cu o concentrație remarcabilă de plaje superbe — peste 60 la număr.
+      "Skiathos — peste 60 de plaje cu nisip fin, pini și ape cristaline. Descoperă magia insulei de la 176€.",
+    longDescription: `Skiathos este o insulă mică dar cu o personalitate uriașă, celebră pentru concentrația sa de plaje spectaculoase — peste 60 pe o suprafață restrânsă. Este destinația ideală pentru iubitorii de natură și ape turcoaz care vor să evite aglomerația marilor stațiuni.
 
-Insula este renumită pentru Koukounaries, considerată una dintre cele mai frumoase plaje din Europa, cu nisip alb și pini coborând până la apă.
+Pachetul include zbor direct (în sezon) și cazare în unități tip studio cu rating mare.
 
 **Ce poți face în Skiathos:**
-- Koukounaries — plaja de top a insulei, nisip fin și pini
-- Banana Beach și Krassa Beach — plaje animate cu jet ski și sporturi nautice
-- Skiathos Town — orășel port pitoresc cu taverne și cafenele
-- Excursie cu barca la insula Tsougria
-- Kastro — ruinele orașului medieval pe stâncă
+- Relaxează-te pe Koukounaries — considerată una dintre cele mai frumoase plaje din Europa, înconjurată de o pădure de pini protejată.
+- Explorează Skiathos Town — un orășel port pitoresc cu taverne, magazine și o atmosferă vibrantă.
+- Excursie cu barca la Lalaria — plaja cu stânci albe și o arcadă naturală în mare, accesibilă doar pe apă.
+- Urcă la Kastro — ruinele vechiului oraș medieval situat pe o stâncă cu vedere panoramică asupra Sporadelor.
 
-**Cazare (cameră dublă, prețul per persoană):**`,
+**Informație importantă:** Prețurile afișate sunt per persoană și pot varia în funcție de momentul rezervării.`,
     dates: [
       {
         label: "21 sep – 28 sep 2026",
@@ -1328,214 +1247,9 @@ Insula este renumită pentru Koukounaries, considerată una dintre cele mai frum
       },
     ],
   },
-
-  {
-    slug: "paphos",
-    title: "Vacanță în Paphos, Cipru – 310€ zbor și cazare 7 zile",
-    destination: "Paphos",
-    country: "Cipru",
-    type: ["plajă"],
-    priceFrom: 310,
-    duration: 7,
-    durationLabel: "7 zile / 7 nopți",
-    fromCity: "București",
-    badge: "NOU",
-    image: "https://picsum.photos/seed/paphos-cyprus/800/500",
-    description:
-      "Paphos — ruine romane, stânci mitologice și mare cristalină. Pachet zbor + cazare de la 310€ per persoană.",
-    longDescription: `Paphos este unul dintre cele mai fermecătoare orașe din Cipru — cu o istorie de peste 4.000 de ani, mozaicuri romane spectaculoase și locul legendar al nașterii Afroditei.
-
-Pachetul include zbor dus-întors din București și cazare la apartament sau studio ales de tine.
-
-**Ce poți face în Paphos:**
-- Mozaicurile romane din Parcul Arheologic Paphos (UNESCO)
-- Stânca Afroditei (Petra tou Romiou) — locul nașterii zeiței
-- Portul medieval cu castelul Paphos
-- Plajele Coral Bay și Pachyammos
-- Excursie în Munții Troodos cu mânăstiri medievale
-
-**Cazare disponibilă (cameră dublă, prețul per persoană):**`,
-    dates: [
-      {
-        label: "6 iul – 13 iul 2026",
-        checkin: "2026-07-06",
-        checkout: "2026-07-13",
-        flightPricePerPerson: 100,
-        flightLink: skyscannerFlightUrl("buch", "pfo", "260706", "260713", "Paphos"),
-        flightPlatform: "skyscanner",
-        hotels: [
-          {
-            name: "Cozy Apartment",
-            pricePerPerson: 213,
-            link: skyscannerHotelUrl("/hotels/cyprus/paphos-hotels/cozy-apartment/ht-47150294", "Paphos"),
-            platform: "skyscanner-hotels",
-          },
-          {
-            name: "Charming Studio",
-            pricePerPerson: 229,
-            link: skyscannerHotelUrl("/hotels/cyprus/paphos-hotels/charming-studio-3/ht-134653904", "Paphos"),
-            platform: "skyscanner-hotels",
-          },
-          {
-            name: "Apt 120",
-            pricePerPerson: 270,
-            link: skyscannerHotelUrl("/hotels/cyprus/paphos-hotels/apt-120/ht-200802952", "Paphos"),
-            platform: "skyscanner-hotels",
-          },
-        ],
-        totalFrom: 310,
-      },
-      {
-        label: "17 aug – 24 aug 2026",
-        checkin: "2026-08-17",
-        checkout: "2026-08-24",
-        flightPricePerPerson: 100,
-        flightLink: skyscannerFlightUrl("buch", "pfo", "260817", "260824", "Paphos"),
-        flightPlatform: "skyscanner",
-        hotels: [
-          {
-            name: "Cozy Apartment",
-            pricePerPerson: 213,
-            link: skyscannerHotelUrl("/hotels/cyprus/paphos-hotels/cozy-apartment/ht-47150294", "Paphos"),
-            platform: "skyscanner-hotels",
-          },
-          {
-            name: "Charming Studio",
-            pricePerPerson: 229,
-            link: skyscannerHotelUrl("/hotels/cyprus/paphos-hotels/charming-studio-3/ht-134653904", "Paphos"),
-            platform: "skyscanner-hotels",
-          },
-        ],
-        totalFrom: 313,
-      },
-      {
-        label: "8 sep – 15 sep 2026",
-        checkin: "2026-09-08",
-        checkout: "2026-09-15",
-        flightPricePerPerson: 100,
-        flightLink: skyscannerFlightUrl("buch", "pfo", "260908", "260915", "Paphos"),
-        flightPlatform: "skyscanner",
-        hotels: [
-          {
-            name: "Cozy Apartment",
-            pricePerPerson: 213,
-            link: skyscannerHotelUrl("/hotels/cyprus/paphos-hotels/cozy-apartment/ht-47150294", "Paphos"),
-            platform: "skyscanner-hotels",
-          },
-        ],
-        totalFrom: 313,
-      },
-    ],
-  },
-
-  {
-    slug: "albania",
-    title: "Vacanță la mare în Albania – 162€ zbor și cazare 7 zile",
-    destination: "Durrës",
-    country: "Albania",
-    type: ["plajă"],
-    priceFrom: 162,
-    duration: 7,
-    durationLabel: "7 zile / 7 nopți",
-    fromCity: "București",
-    badge: "SUPER DEAL",
-    image: "https://picsum.photos/seed/durres-albania/800/500",
-    description:
-      "Albania — destinația secretă a Mediteranei. Plaje cu palmieri, nisip fin și prețuri de trei ori mai mici decât Grecia. De la 162€.",
-    longDescription: `Durrës este principalul oraș-port al Albaniei și o stațiune balneară în plină ascensiune — cu plaje lungi, apă caldă și prețuri care îți lasă bani de cheltuieli.
-
-Albania rămâne una dintre destinațiile puțin cunoscute de turiștii români, ceea ce înseamnă plaje mai puțin aglomerate și experiențe mai autentice.
-
-**Ce poți face în Albania:**
-- Plajele din Durrës — nisip fin și palmieri
-- Amfiteatrul roman din Durrës (sec. II d.Hr.)
-- Excursie la Tirana — capitala colorată, la 40 km
-- Bunk'Art — muzeu în buncărul lui Enver Hoxha
-- Plajele Divjakë-Karavasta și Dhermi (riviera albaneză)
-
-**Cazare disponibilă (cameră dublă, prețul per persoană):**`,
-    dates: [
-      {
-        label: "22 iul – 29 iul 2026",
-        checkin: "2026-07-22",
-        checkout: "2026-07-29",
-        flightPricePerPerson: 87,
-        flightLink: skyscannerFlightUrl("buch", "tia", "260722", "260729", "Tirana"),
-        flightPlatform: "skyscanner",
-        hotels: [
-          {
-            name: "Villa Osmani",
-            pricePerPerson: 75,
-            link: bookingSearchUrl("Villa Osmani Durres Albania", "2026-07-22", "2026-07-29"),
-            platform: "booking",
-          },
-          {
-            name: "Guest House Pisha",
-            pricePerPerson: 112,
-            link: bookingSearchUrl("Guest House Pisha Durres Albania", "2026-07-22", "2026-07-29"),
-            platform: "booking",
-          },
-          {
-            name: "Guest House Tian&Hojz",
-            pricePerPerson: 157,
-            link: bookingSearchUrl("Guest House Tian Hojz Durres Albania", "2026-07-22", "2026-07-29"),
-            platform: "booking",
-          },
-        ],
-        totalFrom: 162,
-      },
-      {
-        label: "13 iul – 20 iul 2026",
-        checkin: "2026-07-13",
-        checkout: "2026-07-20",
-        flightPricePerPerson: 87,
-        flightLink: skyscannerFlightUrl("buch", "tia", "260713", "260720", "Tirana"),
-        flightPlatform: "skyscanner",
-        hotels: [
-          {
-            name: "Villa Osmani",
-            pricePerPerson: 75,
-            link: bookingSearchUrl("Villa Osmani Durres Albania", "2026-07-13", "2026-07-20"),
-            platform: "booking",
-          },
-          {
-            name: "Guest House Pisha",
-            pricePerPerson: 112,
-            link: bookingSearchUrl("Guest House Pisha Durres Albania", "2026-07-13", "2026-07-20"),
-            platform: "booking",
-          },
-        ],
-        totalFrom: 162,
-      },
-      {
-        label: "1 aug – 8 aug 2026",
-        checkin: "2026-08-01",
-        checkout: "2026-08-08",
-        flightPricePerPerson: 87,
-        flightLink: skyscannerFlightUrl("buch", "tia", "260801", "260808", "Tirana"),
-        flightPlatform: "skyscanner",
-        hotels: [
-          {
-            name: "Villa Osmani",
-            pricePerPerson: 75,
-            link: bookingSearchUrl("Villa Osmani Durres Albania", "2026-08-01", "2026-08-08"),
-            platform: "booking",
-          },
-          {
-            name: "Guest House Pisha",
-            pricePerPerson: 112,
-            link: bookingSearchUrl("Guest House Pisha Durres Albania", "2026-08-01", "2026-08-08"),
-            platform: "booking",
-          },
-        ],
-        totalFrom: 162,
-      },
-    ],
-  },
-
   {
     slug: "tropea",
-    title: "Zboruri ieftine Tropea (Lamezia) – de la 53€ dus-întors",
+    title: "Perla Calabriei: Tropea – Zboruri ieftine de la 53€ dus-întors",
     destination: "Tropea (Calabria)",
     country: "Italia",
     type: ["plajă"],
@@ -1546,20 +1260,18 @@ Albania rămâne una dintre destinațiile puțin cunoscute de turiștii români,
     isFlightOnly: true,
     image: "https://picsum.photos/seed/tropea-calabria/800/500",
     description:
-      "Tropea — cel mai spectaculos sat de pe coastele Italiei, pe o stâncă deasupra mării. Zboruri la Lamezia de la 53€ dus-întors.",
-    longDescription: `Tropea este considerat unul dintre cele mai frumoase sate din Italia — un orășel medieval cocoțat pe o stâncă de 50 de metri deasupra Mării Tireniene, cu plaje albe la poalele ei.
+      "Tropea — orășelul medieval cocoțat pe o stâncă deasupra mării cristaline. Zboruri spre Lamezia de la 53€.",
+    longDescription: `Tropea este considerată una dintre cele mai spectaculoase destinații de coastă din Italia — un orășel medieval suspendat pe o stâncă de 50 de metri deasupra Mării Tireniene. Cu ape de un albastru intens și plaje cu nisip fin la poalele sale, Tropea este cu adevărat „Perla Calabriei”.
 
-Adesea supranumit „Perla Calabriei", Tropea combină arhitectura medievală cu o mare de un albastru intens.
+Această ofertă vizează DOAR biletele de avion către Lamezia Terme (aeroportul aflat la 60 km distanță), oferindu-ți libertatea de a-ți alege singur cazarea perfectă.
 
-**Ce poți face în Tropea și împrejurimi:**
-- Plajele de la poalele stâncii — nisip fin și apă turcoaz
-- Santa Maria dell'Isola — biserica pe insuliță, simbol al orașului
-- Capo Vaticano — capul cu faleze spectaculoase
-- Piazza Ercole — centrul animat al orașului vechi
-- Excursie la Scilla — alt sat spectaculos pe stâncă
-- Excursie la Parco Nazionale della Sila — munți și lacuri
+**De ce să alegi Tropea:**
+- Vizitează Biserica Santa Maria dell'Isola — simbolul orașului, situată pe o insuliță chiar în fața stâncii.
+- Plajele spectaculoase cu apă cristalină care te fac să crezi că ești în Caraibe.
+- Explorează centrul vechi plin de viață, cu restaurante ce servesc celebrele cepe roșii de Tropea și paste locale.
+- Excursie la Capo Vaticano pentru faleze dramatice și unele dintre cele mai bune locuri de snorkeling din Italia.
 
-**Această ofertă include DOAR zborul** (la Lamezia Terme, la 60 km de Tropea). Cazarea o rezervi separat pe Booking.com.`,
+**Important:** Oferta include doar zborul. Rezervările se fac pe platformele partenerilor noștri.`,
     dates: [
       {
         label: "1 oct – 8 oct 2026",
