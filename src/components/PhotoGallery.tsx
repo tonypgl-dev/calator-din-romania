@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import type { GalleryPhoto } from "@/lib/photos";
 
 interface Props {
@@ -76,7 +77,7 @@ export default function PhotoGallery({ photos, destination }: Props) {
             onClick={close}
             aria-label="Închide"
           >
-            ✕
+            <X className="w-5 h-5" />
           </button>
 
           {/* Counter */}
@@ -90,7 +91,7 @@ export default function PhotoGallery({ photos, destination }: Props) {
             onClick={(e) => { e.stopPropagation(); prev(); }}
             aria-label="Anterior"
           >
-            ‹
+            <ChevronLeft className="w-7 h-7" />
           </button>
 
           {/* Image */}
@@ -114,7 +115,7 @@ export default function PhotoGallery({ photos, destination }: Props) {
             onClick={(e) => { e.stopPropagation(); next(); }}
             aria-label="Următor"
           >
-            ›
+            <ChevronRight className="w-7 h-7" />
           </button>
         </div>
       )}

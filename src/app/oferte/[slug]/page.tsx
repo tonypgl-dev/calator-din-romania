@@ -4,6 +4,7 @@ import Link from "next/link";
 import { getOfferBySlug, OFFERS } from "@/lib/offers";
 import { PHOTOS } from "@/lib/photos";
 import PhotoGallery from "@/components/PhotoGallery";
+import { Calendar, MapPin, BarChart3, PlaneTakeoff, BedDouble, Camera, AlertTriangle } from "lucide-react";
 import type { Metadata } from "next";
 
 // ─── Static params ────────────────────────────────────────────────────────────
@@ -117,10 +118,10 @@ export default async function OfferPage({
                   </span>
                 ))}
                 <span className="text-xs font-medium text-slate-600 bg-slate-100 px-3 py-1 rounded-full flex items-center gap-1">
-                  📅 {offer.durationLabel}
+                  <Calendar className="w-3 h-3" /> {offer.durationLabel}
                 </span>
                 <span className="text-xs font-medium text-slate-600 bg-slate-100 px-3 py-1 rounded-full flex items-center gap-1">
-                  📍 Din {offer.fromCity}
+                  <MapPin className="w-3 h-3" /> Din {offer.fromCity}
                 </span>
               </div>
               <h1 className="text-3xl sm:text-4xl font-black text-slate-900 leading-tight">{offer.title}</h1>
@@ -131,7 +132,7 @@ export default async function OfferPage({
               <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm">
                 <div className="bg-slate-50 px-6 py-4 border-b border-slate-200">
                   <h2 className="font-bold text-slate-800 flex items-center gap-2">
-                    📊 Rezumat prețuri pachete
+                    <BarChart3 className="w-4 h-4" /> Rezumat prețuri pachete
                   </h2>
                 </div>
                 <div className="overflow-x-auto">
@@ -211,7 +212,7 @@ export default async function OfferPage({
 
             {/* Dates & packages */}
             <div id="options" className="space-y-4">
-              <h3 className="font-bold text-slate-800 px-1">📅 Perioade disponibile</h3>
+              <h3 className="font-bold text-slate-800 px-1 flex items-center gap-1"><Calendar className="w-4 h-4" /> Perioade disponibile</h3>
               {offer.dates.map((dateOpt, di) => (
                 <div key={di} id={`date-${di}`} className="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden scroll-mt-6">
                   <div className="bg-slate-50 px-5 py-3 border-b border-slate-100 flex justify-between items-center">
@@ -222,12 +223,12 @@ export default async function OfferPage({
                     {/* Flight */}
                     <div className="bg-sky-50/50 p-4 rounded-2xl border border-sky-100/50">
                       <p className="text-[10px] text-sky-600 uppercase tracking-widest font-black mb-2 flex items-center gap-1">
-                        ✈️ Zbor dus-întors
+                        <PlaneTakeoff className="w-3 h-3" /> Zbor dus-întors
                       </p>
                       <div className="flex items-center justify-between">
                         <div>
                           <p className="font-bold text-slate-800 text-sm">
-                            {offer.fromCity} ↔️ {offer.destination}
+                            {offer.fromCity} ⇄ {offer.destination}
                           </p>
                           <span className={`inline-block mt-1 text-[10px] font-bold text-white px-2 py-0.5 rounded-md ${PLATFORM_LABELS[dateOpt.flightPlatform]?.color}`}>
                             {PLATFORM_LABELS[dateOpt.flightPlatform]?.label}
@@ -249,8 +250,8 @@ export default async function OfferPage({
 
                     {/* Hotels */}
                     <div>
-                      <p className="text-[10px] text-slate-400 uppercase tracking-widest font-black mb-3 px-1">
-                        🏨 Opțiuni de cazare (pers)
+                      <p className="text-[10px] text-slate-400 uppercase tracking-widest font-black mb-3 px-1 flex items-center gap-1">
+                        <BedDouble className="w-3 h-3" /> Opțiuni de cazare (pers)
                       </p>
                       <div className="space-y-2">
                         {dateOpt.hotels.map((hotel, hi) => (
@@ -287,7 +288,7 @@ export default async function OfferPage({
             {/* Disclaimer */}
             <div className="bg-slate-50 p-5 rounded-3xl border border-slate-100">
               <p className="text-[11px] text-slate-500 leading-relaxed italic">
-                <span className="font-bold text-slate-700 not-italic block mb-1">⚠️ Notă importantă</span>
+                <span className="font-bold text-slate-700 not-italic flex items-center gap-1 mb-1"><AlertTriangle className="w-3.5 h-3.5" /> Notă importantă</span>
                 Prețurile sunt valabile la momentul publicării. Calator fara Limite este un agregator, nu o agenție de turism. Rezervi direct cu operatorul (Skyscanner/Booking/etc) — fără comisioane ascunse. Prețul final poate varia în funcție de momentul rezervării.
               </p>
             </div>
@@ -297,7 +298,7 @@ export default async function OfferPage({
         {/* Photo Gallery */}
         {photos.length > 0 && (
           <div className="mt-12">
-            <h2 className="text-2xl font-bold text-slate-800 mb-6">📸 Galerie foto — {offer.destination}</h2>
+            <h2 className="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2"><Camera className="w-6 h-6 text-orange-500" /> Galerie foto — {offer.destination}</h2>
             <PhotoGallery photos={photos} destination={offer.destination} />
           </div>
         )}

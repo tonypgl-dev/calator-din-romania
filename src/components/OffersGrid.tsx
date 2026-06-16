@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import { SearchX } from "lucide-react";
 import type { Offer, OfferType } from "@/lib/offers";
 import OfferCard from "./OfferCard";
 
@@ -98,7 +99,7 @@ export default function OffersGrid({ offers }: Props) {
       {/* Grid */}
       {filtered.length === 0 ? (
         <div className="text-center py-20 text-slate-400">
-          <p className="text-4xl mb-3">🔍</p>
+          <SearchX className="w-10 h-10 mx-auto mb-3" strokeWidth={1.5} />
           <p className="font-medium">Nicio ofertă găsită pentru filtrele selectate.</p>
         </div>
       ) : (

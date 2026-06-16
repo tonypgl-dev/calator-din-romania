@@ -3,6 +3,7 @@ import OffersGrid from "@/components/OffersGrid";
 import PriceAlertForm from "@/components/PriceAlertForm";
 import Link from "next/link";
 import Image from "next/image";
+import { Target, Wallet, Zap, ShieldCheck } from "lucide-react";
 
 // imgW = target render width to normalise perceived text size across logos
 const PARTNERS = [
@@ -102,13 +103,13 @@ export default function HomePage() {
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { icon: "🎯", title: "Selectate manual", text: "Fiecare ofertă este verificată personal înainte de publicare." },
-            { icon: "💰", title: "Cel mai mic preț", text: "Combinăm zboruri și cazare pentru cele mai bune tarife." },
-            { icon: "⚡", title: "Actualizate zilnic", text: "Noile oferte apar în fiecare zi — fii primul care rezervă." },
-            { icon: "🛡️", title: "Fără comision", text: "Rezervi direct cu operatorii. Noi nu adăugăm comisioane." },
+            { Icon: Target, title: "Selectate manual", text: "Fiecare ofertă este verificată personal înainte de publicare." },
+            { Icon: Wallet, title: "Cel mai mic preț", text: "Combinăm zboruri și cazare pentru cele mai bune tarife." },
+            { Icon: Zap, title: "Actualizate zilnic", text: "Noile oferte apar în fiecare zi — fii primul care rezervă." },
+            { Icon: ShieldCheck, title: "Fără comision", text: "Rezervi direct cu operatorii. Noi nu adăugăm comisioane." },
           ].map((f) => (
             <div key={f.title} className="text-center p-6 rounded-2xl bg-slate-50 border border-slate-100">
-              <p className="text-3xl mb-3">{f.icon}</p>
+              <f.Icon className="w-8 h-8 mx-auto mb-3 text-orange-500" strokeWidth={2} />
               <h3 className="font-bold text-slate-800 mb-2">{f.title}</h3>
               <p className="text-sm text-slate-500">{f.text}</p>
             </div>
