@@ -132,7 +132,7 @@ export default async function OfferPage({
               <div className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-sm">
                 <div className="bg-slate-50 px-6 py-4 border-b border-slate-200">
                   <h2 className="font-bold text-slate-800 flex items-center gap-2">
-                    <BarChart3 className="w-4 h-4" /> Rezumat prețuri pachete
+                    <BarChart3 className="w-4 h-4" /> Rezumat prețuri pachete <span className="text-slate-400 font-normal text-sm">(preț/persoană)</span>
                   </h2>
                 </div>
                 <div className="overflow-x-auto">
@@ -140,8 +140,8 @@ export default async function OfferPage({
                     <thead>
                       <tr className="text-xs uppercase tracking-wider text-slate-400 bg-slate-50/50">
                         <th className="px-6 py-3 font-semibold">Perioada</th>
-                        <th className="px-6 py-3 font-semibold">Zbor</th>
-                        <th className="px-6 py-3 font-semibold">Cazare</th>
+                        <th className="px-6 py-3 font-semibold"><span className="inline-flex items-center gap-1"><PlaneTakeoff className="w-3.5 h-3.5" /> Zbor</span></th>
+                        <th className="px-6 py-3 font-semibold"><span className="inline-flex items-center gap-1"><BedDouble className="w-3.5 h-3.5" /> Cazare</span></th>
                         <th className="px-6 py-3 font-semibold text-emerald-500">Total</th>
                         <th className="px-6 py-3 font-semibold"></th>
                       </tr>
