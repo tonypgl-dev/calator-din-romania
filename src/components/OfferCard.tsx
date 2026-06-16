@@ -10,8 +10,8 @@ const TYPE_COLORS: Record<string, string> = {
 };
 
 const BADGE_COLORS: Record<string, string> = {
-  "POPULAR": "bg-orange-500",
-  "NOU": "bg-emerald-500",
+  "POPULAR": "bg-emerald-600",
+  "NOU": "bg-teal-500",
   "SUPER DEAL": "bg-red-500",
   "EXOTIC": "bg-amber-500",
   "LAST MINUTE": "bg-rose-600",
@@ -68,7 +68,7 @@ export default function OfferCard({ offer }: { offer: Offer }) {
         <div className="flex items-end justify-between pt-2 border-t border-slate-100">
           <div>
             <p className="text-xs text-slate-400">de la</p>
-            <p className="text-2xl font-extrabold text-orange-500">
+            <p className="text-2xl font-extrabold text-emerald-600">
               {offer.priceFrom}€
               <span className="text-xs text-slate-400 font-normal ml-1">/pers</span>
             </p>

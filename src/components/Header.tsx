@@ -16,7 +16,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-orange-500 shadow-lg">
+    <header className="sticky top-0 z-50 bg-emerald-500 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-20">
         <Link href="/" className="flex items-center gap-2 shrink-0">
           <Image
@@ -41,7 +41,7 @@ export default function Header() {
             <Link
               key={n.href}
               href={n.href}
-              className="text-slate-200 hover:text-orange-400 text-sm font-medium transition-colors"
+              className="text-slate-200 hover:text-emerald-400 text-sm font-medium transition-colors"
             >
               {n.label}
             </Link>
@@ -62,13 +62,13 @@ export default function Header() {
 
       {/* Mobile menu */}
       {open && (
-        <nav className="md:hidden bg-orange-500 border-t border-slate-700 px-4 pb-4">
+        <nav className="md:hidden bg-emerald-500 border-t border-slate-700 px-4 pb-4">
           {NAV.map((n) => (
             <Link
               key={n.href}
               href={n.href}
               onClick={() => setOpen(false)}
-              className="block py-2 text-slate-200 hover:text-orange-400 text-sm font-medium"
+              className="block py-2 text-slate-200 hover:text-emerald-400 text-sm font-medium"
             >
               {n.label}
             </Link>

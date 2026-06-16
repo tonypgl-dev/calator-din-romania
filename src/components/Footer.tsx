@@ -23,7 +23,7 @@ export default function Footer() {
               style={{ filter: "drop-shadow(0 2px 6px rgba(0,0,0,0.4))" }}
             />
             <span className="text-white font-bold text-lg">
-              Călător <span className="text-orange-400">din România</span>
+              Călător <span className="text-emerald-400">din România</span>
             </span>
           </div>
           <p className="text-sm text-slate-400 leading-relaxed">
@@ -42,7 +42,7 @@ export default function Footer() {
               { href: "/contact", label: "Contact" },
             ].map((l) => (
               <li key={l.href}>
-                <Link href={l.href} className="hover:text-orange-400 transition-colors">
+                <Link href={l.href} className="hover:text-emerald-400 transition-colors">
                   {l.label}
                 </Link>
               </li>
@@ -60,7 +60,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={s.label}
-                className="w-9 h-9 rounded-full bg-slate-700 hover:bg-orange-500 flex items-center justify-center text-xs font-bold transition-colors"
+                className="w-9 h-9 rounded-full bg-slate-700 hover:bg-emerald-500 flex items-center justify-center text-xs font-bold transition-colors"
               >
                 {s.icon}
               </a>

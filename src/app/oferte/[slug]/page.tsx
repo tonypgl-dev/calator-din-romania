@@ -35,7 +35,7 @@ export async function generateMetadata({
 const PLATFORM_LABELS: Record<string, { label: string; color: string }> = {
   skyscanner: { label: "Skyscanner", color: "bg-sky-500" },
   momondo: { label: "Momondo", color: "bg-violet-500" },
-  kiwi: { label: "Kiwi.com", color: "bg-orange-500" },
+  kiwi: { label: "Kiwi.com", color: "bg-emerald-500" },
   booking: { label: "Booking.com", color: "bg-blue-600" },
   "skyscanner-hotels": { label: "Skyscanner Hotels", color: "bg-sky-500" },
 };
@@ -80,9 +80,9 @@ export default async function OfferPage({
       {/* Breadcrumb */}
       <div className="bg-white border-b border-slate-100 px-4 py-3">
         <div className="max-w-5xl mx-auto text-sm text-slate-500 flex gap-2 items-center">
-          <Link href="/" className="hover:text-orange-500">Acasă</Link>
+          <Link href="/" className="hover:text-emerald-500">Acasă</Link>
           <span>/</span>
-          <Link href="/oferte" className="hover:text-orange-500">Oferte</Link>
+          <Link href="/oferte" className="hover:text-emerald-500">Oferte</Link>
           <span>/</span>
           <span className="text-slate-800 font-medium">{offer.destination}</span>
         </div>
@@ -103,7 +103,7 @@ export default async function OfferPage({
                 sizes="(max-width: 1024px) 100vw, 65vw"
               />
               {offer.badge && (
-                <span className="absolute top-6 left-6 bg-orange-500 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
+                <span className="absolute top-6 left-6 bg-emerald-500 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
                   {offer.badge}
                 </span>
               )}
@@ -142,7 +142,7 @@ export default async function OfferPage({
                         <th className="px-6 py-3 font-semibold">Perioada</th>
                         <th className="px-6 py-3 font-semibold">Zbor</th>
                         <th className="px-6 py-3 font-semibold">Cazare</th>
-                        <th className="px-6 py-3 font-semibold text-orange-500">Total</th>
+                        <th className="px-6 py-3 font-semibold text-emerald-500">Total</th>
                         <th className="px-6 py-3 font-semibold"></th>
                       </tr>
                     </thead>
@@ -156,7 +156,7 @@ export default async function OfferPage({
                             <td className="px-6 py-4 text-slate-600">{minHotel}€</td>
                             <td className="px-6 py-4 font-bold text-slate-900">{d.flightPricePerPerson + minHotel}€</td>
                             <td className="px-6 py-4 text-right">
-                              <a href={`#date-${i}`} className="text-xs font-bold text-orange-500 hover:text-orange-600 underline">
+                              <a href={`#date-${i}`} className="text-xs font-bold text-emerald-500 hover:text-emerald-600 underline">
                                 Detalii
                               </a>
                             </td>
@@ -181,7 +181,7 @@ export default async function OfferPage({
                 }
                 if (line.startsWith("- ")) {
                   return (
-                    <li key={i} className="ml-4 list-disc mb-1 marker:text-orange-500">
+                    <li key={i} className="ml-4 list-disc mb-1 marker:text-emerald-500">
                       {line.slice(2)}
                     </li>
                   );
@@ -195,7 +195,7 @@ export default async function OfferPage({
           {/* Sidebar — date & booking options */}
           <div className="space-y-6">
             {/* Sticky-like price card */}
-            <div className="bg-orange-500 rounded-3xl p-6 text-white shadow-lg shadow-orange-200">
+            <div className="bg-emerald-500 rounded-3xl p-6 text-white shadow-lg shadow-emerald-200">
               <p className="text-xs font-bold uppercase tracking-widest opacity-80 mb-1">Cea mai ieftină opțiune</p>
               <div className="flex items-baseline gap-1 mb-1">
                 <span className="text-5xl font-black">{cheapestTotal}€</span>
@@ -205,7 +205,7 @@ export default async function OfferPage({
                 <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
                 Zbor + cazare inclusă
               </p>
-              <a href="#options" className="block w-full text-center bg-white text-orange-600 font-bold py-3 rounded-2xl text-sm hover:bg-orange-50 transition-colors">
+              <a href="#options" className="block w-full text-center bg-white text-emerald-600 font-bold py-3 rounded-2xl text-sm hover:bg-emerald-50 transition-colors">
                 Vezi toate perioadele
               </a>
             </div>
@@ -260,10 +260,10 @@ export default async function OfferPage({
                             href={hotel.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center justify-between p-3 rounded-2xl border border-slate-100 hover:border-orange-300 hover:bg-orange-50 transition-all group shadow-sm hover:shadow-md"
+                            className="flex items-center justify-between p-3 rounded-2xl border border-slate-100 hover:border-emerald-300 hover:bg-emerald-50 transition-all group shadow-sm hover:shadow-md"
                           >
                             <div className="min-w-0 flex-1">
-                              <p className="text-sm font-bold text-slate-800 group-hover:text-orange-600 truncate">
+                              <p className="text-sm font-bold text-slate-800 group-hover:text-emerald-600 truncate">
                                 {hotel.name}
                               </p>
                               <span className={`inline-block text-[10px] font-bold text-white px-1.5 py-0.5 rounded-md ${PLATFORM_LABELS[hotel.platform]?.color}`}>
@@ -272,7 +272,7 @@ export default async function OfferPage({
                             </div>
                             <div className="text-right shrink-0 ml-3">
                               <p className="text-sm font-black text-slate-900 leading-none">{hotel.pricePerPerson}€</p>
-                              <p className="text-[10px] text-orange-500 font-bold mt-1">
+                              <p className="text-[10px] text-emerald-500 font-bold mt-1">
                                 Total: {dateOpt.flightPricePerPerson + hotel.pricePerPerson}€
                               </p>
                             </div>
@@ -298,7 +298,7 @@ export default async function OfferPage({
         {/* Photo Gallery */}
         {photos.length > 0 && (
           <div className="mt-12">
-            <h2 className="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2"><Camera className="w-6 h-6 text-orange-500" /> Galerie foto — {offer.destination}</h2>
+            <h2 className="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2"><Camera className="w-6 h-6 text-emerald-500" /> Galerie foto — {offer.destination}</h2>
             <PhotoGallery photos={photos} destination={offer.destination} />
           </div>
         )}

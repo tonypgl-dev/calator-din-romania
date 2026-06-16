@@ -48,8 +48,8 @@ export default function OffersGrid({ offers }: Props) {
               onClick={() => setSelectedType(null)}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-colors ${
                 selectedType === null
-                  ? "bg-orange-500 text-white border-orange-500"
-                  : "border-slate-200 text-slate-600 hover:border-orange-300"
+                  ? "bg-emerald-500 text-white border-emerald-500"
+                  : "border-slate-200 text-slate-600 hover:border-emerald-300"
               }`}
             >
               Toate
@@ -60,8 +60,8 @@ export default function OffersGrid({ offers }: Props) {
                 onClick={() => setSelectedType(t === selectedType ? null : t)}
                 className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition-colors ${
                   selectedType === t
-                    ? "bg-orange-500 text-white border-orange-500"
-                    : "border-slate-200 text-slate-600 hover:border-orange-300"
+                    ? "bg-emerald-500 text-white border-emerald-500"
+                    : "border-slate-200 text-slate-600 hover:border-emerald-300"
                 }`}
               >
                 {t}
@@ -75,7 +75,7 @@ export default function OffersGrid({ offers }: Props) {
           <select
             value={budgetIdx}
             onChange={(e) => setBudgetIdx(Number(e.target.value))}
-            className="text-xs border border-slate-200 rounded-lg px-2 py-1.5 text-slate-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
+            className="text-xs border border-slate-200 rounded-lg px-2 py-1.5 text-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-300"
           >
             {BUDGETS.map((b, i) => (
               <option key={i} value={i}>{b.label}</option>
@@ -86,7 +86,7 @@ export default function OffersGrid({ offers }: Props) {
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as "price" | "duration")}
-            className="text-xs border border-slate-200 rounded-lg px-2 py-1.5 text-slate-600 focus:outline-none focus:ring-2 focus:ring-orange-300"
+            className="text-xs border border-slate-200 rounded-lg px-2 py-1.5 text-slate-600 focus:outline-none focus:ring-2 focus:ring-emerald-300"
           >
             <option value="price">Sortare: Preț</option>
             <option value="duration">Sortare: Durată</option>

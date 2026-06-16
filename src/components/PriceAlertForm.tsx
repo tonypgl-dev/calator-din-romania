@@ -17,7 +17,7 @@ export default function PriceAlertForm() {
   return (
     <section className="bg-gradient-to-r from-[#0f2942] to-[#1a4470] py-14 px-4">
       <div className="max-w-2xl mx-auto text-center">
-        <Bell className="w-8 h-8 mx-auto mb-3 text-orange-400" strokeWidth={2} />
+        <Bell className="w-8 h-8 mx-auto mb-3 text-emerald-400" strokeWidth={2} />
         <h2 className="text-2xl font-bold text-white mb-2">Primești ofertele pe email</h2>
         <p className="text-slate-300 mb-8 text-sm">
           Fii primul care află când apare o ofertă nouă. Viteza contează — prețurile nu stau mult.
@@ -36,11 +36,11 @@ export default function PriceAlertForm() {
               placeholder="adresa@email.ro"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="flex-1 rounded-xl px-4 py-3 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-orange-400"
+              className="flex-1 rounded-xl px-4 py-3 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-400"
             />
             <button
               type="submit"
-              className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl text-sm transition-colors shrink-0"
+              className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold px-6 py-3 rounded-xl text-sm transition-colors shrink-0"
             >
               Abonează-te gratuit
             </button>
